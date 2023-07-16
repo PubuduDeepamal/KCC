@@ -1,0 +1,41 @@
+.dropdown-item {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#தமிழ்{
+    margin-right: 30px;
+}
+
+#தமிழ்:hover{
+    color: #a2aabd;
+}
+
+#hederhover:hover{
+    color: #a2aabd;
+}
+
+#postbutton{ 
+    background-Color: #ff4500;
+}
+
+#postbutton:hover{
+    background-Color: #ce3700;
+}
+
+.imgiliment{
+    width: 200px;
+    margin-Right: 10px; 
+    margin-Left: 15px;
+}
+
+@media (max-width: 767px) {
+.imgiliment{
+    margin-top: 7%;
+    margin-left: 14%;
+}
+
+.mobhide {
+    display: none;
+}
+}

@@ -1,0 +1,25 @@
+@media (min-width: 992px) 
+{
+    .navbar-expand-lg .navbar-collapse {
+      background: green;
+      height: 50px;
+    }
+}
+
+.navbar-expand-lg .navbar-nav .nav-link 
+{
+    color: white;
+}
+
+.dropdown-toggle::after {
+    display: contents;
+}
+
+#paddingmanage{
+    padding-bottom: 0px;
+}
+
+.navbar > .container, .navbar > .container-fluid, .navbar > .container-sm, .navbar > .container-md, .navbar > .container-lg, .navbar > .container-xl, .navbar > .container-xxl {
+    padding: 0px;
+}
+

@@ -1,0 +1,21 @@
+#boxtop {
+    margin-top: 267px;
+}
+
+#Heading{
+    padding-top: 30px;
+}
+
+.text-white {
+    margin-bottom: 30px;
+}
+
+#postbutton{ 
+    background-Color: #ff4500;
+    color: white;
+    border: none;
+}
+
+#postbutton:hover{
+    background-Color: #ce3700;
+}
