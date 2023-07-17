@@ -38,15 +38,22 @@ const Costcal = () => {
 
     if (!isNaN(hours) && hours !== '') {
       const total = amount * parseInt(hours, 10);
-      alert(`Total Parking Charge: $${total}`);
+      Swal({
+        icon: 'success',
+        title: 'Total Parking Charge',
+        text: `$${total}`,
+        timer: 3000, 
+        showCancelButton: false, 
+      });
+      
     } else {
-      alert('Please enter a valid number of hours.');
-      // Swal.fire({
-      //   title: 'Hello!',
-      //   text: 'This is a SweetAlert in a React app!',
-      //   icon: 'success',
-      //   confirmButtonText: 'Cool!',
-      // });
+      Swal({
+        title: 'Error!',
+        text: 'Please enter a valid number of hours.',
+        icon: 'error',
+        timer: 3000, 
+        button: false, 
+      });
     }
   };
 
