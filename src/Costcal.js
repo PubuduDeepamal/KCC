@@ -1,7 +1,10 @@
 import React, { useState } from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './Css/Costcal.css';
+import Swal from 'sweetalert';
 
-const Header = () => {
+
+const Costcal = () => {
   const [vehicleType, setVehicleType] = useState('car');
   const [hours, setHours] = useState('');
 
@@ -10,7 +13,11 @@ const Header = () => {
   };
 
   const handleHoursChange = (event) => {
-    setHours(event.target.value);
+    // Validate the input to only allow positive integers
+    const value = event.target.value;
+    if (value === '' || (Number(value) >= 0 && Number.isInteger(parseFloat(value)))) {
+      setHours(value);
+    }
   };
 
   const calculateCharge = () => {
@@ -29,34 +36,60 @@ const Header = () => {
         amount = 0;
     }
 
-    if (!isNaN(hours)) {
-      const total = amount * parseInt(hours);
-      alert(`Total Parking Charge: ${total}`);
+    if (!isNaN(hours) && hours !== '') {
+      const total = amount * parseInt(hours, 10);
+      alert(`Total Parking Charge: $${total}`);
     } else {
       alert('Please enter a valid number of hours.');
+      // Swal.fire({
+      //   title: 'Hello!',
+      //   text: 'This is a SweetAlert in a React app!',
+      //   icon: 'success',
+      //   confirmButtonText: 'Cool!',
+      // });
     }
   };
 
   return (
-    <div>
-      <h1>Parking Charge Calculator</h1>
-      <div>
-        <label htmlFor="vehicleType">Select Vehicle Type:</label>
-        <select id="vehicleType" value={vehicleType} onChange={handleVehicleTypeChange}>
-          <option value="car">Car</option>
-          <option value="van">Van</option>
-          <option value="jeep">Jeep</option>
-        </select>
+    <div className="container mt-5">
+      <h1 className="text-center" id="bottom1"><b>Parking Charge Calculator</b></h1>
+      <div className="row mt-3">
+        <div className="col-md-6 offset-md-3">
+          <label htmlFor="vehicleType" id="bottom2">Select Vehicle Type:</label>
+          <select
+            className="form-select"
+            id="vehicleType"
+            value={vehicleType}
+            onChange={handleVehicleTypeChange}
+          >
+            <option value="car">Car</option>
+            <option value="van">Van</option>
+            <option value="jeep">Jeep</option>
+          </select>
+        </div>
       </div>
-      <div>
-        <label htmlFor="hours">Enter Hours:</label>
-        <input type="number" id="hours" value={hours} onChange={handleHoursChange} />
+      <div className="row mt-3">
+        <div className="col-md-6 offset-md-3">
+          <label htmlFor="hours" id="bottom2">Enter Hours:</label>
+          <input
+            type="number"
+            className="form-control"
+            id="hours"
+            value={hours}
+            onChange={handleHoursChange}
+            min="0"
+          />
+        </div>
       </div>
-      <div>
-        <button onClick={calculateCharge}>Calculate</button>
+      <div className="row mt-3">
+        <div className="col-md-6 offset-md-3">
+          <button className="btn btn-primary" id="calbutton" onClick={calculateCharge}>
+            Calculate
+          </button>
+        </div>
       </div>
     </div>
   );
 };
 
-export default Header;
+export default Costcal;
