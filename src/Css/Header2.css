@@ -1,14 +1,14 @@
 @media (min-width: 992px) 
 {
     .navbar-expand-lg .navbar-collapse {
-      background: green;
-      height: 50px;
+      background: white;
+      height: 70px;
     }
 }
 
 .navbar-expand-lg .navbar-nav .nav-link 
 {
-    color: white;
+    color: black;
 }
 
 .dropdown-toggle::after {

@@ -1,0 +1,18 @@
+{
+    "free": {
+      "title": "Free",
+      "price": "$100000",
+      "description": "10 users included\n2 GB of storage\nEmail support\nHelp center access"
+    },
+    "basic": {
+      "title": "Basic",
+      "price": "$9.99",
+      "description": "50 users included\n10 GB of storage\nPriority email support\nHelp center access"
+    },
+    "pro": {
+      "title": "Pro",
+      "price": "$19.99",
+      "description": "100 users included\n50 GB of storage\nPhone and email support\nHelp center access"
+    }
+  }
+  

@@ -1,9 +1,12 @@
 #boxtop {
-    margin-top: 267px;
+    margin-top: 60px;
 }
 
 #Heading{
     padding-top: 30px;
+    font-size: 60px;
+    color: white;
+    font-weight: bold;
 }
 
 .text-white {
@@ -11,6 +14,7 @@
 }
 
 #postbutton{ 
+    height: 46px;
     background-Color: #ff4500;
     color: white;
     border: none;
@@ -19,3 +23,16 @@
 #postbutton:hover{
     background-Color: #ce3700;
 }
+
+#input{
+    background-color: white;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.form-control {
+    height: 50px;
+}
+

@@ -6,7 +6,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 
 const Header = () => {
   return (
-    <header>
+    <header id="hederwidth">
       <nav
         className="navbar navbar-light bg-light justify-content-between"
         style={{
@@ -37,7 +37,7 @@ const Header = () => {
           >
             Post Your Ad
           </button>
-          <ul className="navbar2" style={{ display: 'inline-flex' }}>
+          <ul className="navbar2" id="navbar2" style={{ display: 'inline-flex' }}>
           <NavDropdown.Item href="#action3" className="mobhide" id="hederhover">Eng</NavDropdown.Item>
           <NavDropdown.Item href="#action3" className="mobhide" id="hederhover">සිංහල</NavDropdown.Item>
           <NavDropdown.Item href="#action3" className="mobhide" id="தமிழ்">தமிழ்</NavDropdown.Item>

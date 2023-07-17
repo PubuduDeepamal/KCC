@@ -27,15 +27,25 @@
     width: 200px;
     margin-Right: 10px; 
     margin-Left: 15px;
+    margin-top: 8px;
+}
+
+#hederwidth{
+    height: 70px;
 }
 
 @media (max-width: 767px) {
 .imgiliment{
-    margin-top: 7%;
-    margin-left: 14%;
+    margin-top: 11%;
+    margin-left: 24%;
+    margin-bottom: 5%;
 }
 
 .mobhide {
     display: none;
+}
+
+#navbar2{
+    margin-left: 14%;
 }
 }
