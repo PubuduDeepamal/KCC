@@ -1,8 +1,8 @@
-import './App.css';
-import Header1 from './Header1'
-import Hero from './Hero'
-import ParkingRates from './ParkingRates'
-import Costcal from './Costcal'
+import Header1 from './Components/Header1'
+import Hero from './Components/Hero'
+import ParkingRates from './Components/ParkingRates'
+import Costcal from './Components/Costcal'
+import location1 from './Components/location1'
 
 function App() {
   return (
@@ -10,6 +10,7 @@ function App() {
       <Header1/>
       <Hero/>
       <ParkingRates/>
+      <location1/>
       <Costcal/>
     </div>
     

@@ -1,7 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
 import 'bootstrap/dist/js/bootstrap.bundle.min.js'; // Import Bootstrap JS
-import './Css/Header1.css';
+import '../Css/Header1.css';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 
 const Header = () => {
@@ -25,8 +25,8 @@ const Header = () => {
 
         <div className="navbar-container">
           <ul className="navbar2" style={{ justifyContent: 'flex-start', display: 'inline-flex' }}>
-            <NavDropdown.Item href="#action3" id="hederhover">Login</NavDropdown.Item>
-            <NavDropdown.Item href="#action3" id="hederhover">Register</NavDropdown.Item>
+            <NavDropdown.Item href="/Home" id="hederhover">Login</NavDropdown.Item>
+            <NavDropdown.Item href="/About" id="hederhover">Register</NavDropdown.Item>
             <NavDropdown.Item href="#action3" id="hederhover">Help</NavDropdown.Item>
           </ul>
           <button

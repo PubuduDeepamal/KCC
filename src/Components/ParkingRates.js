@@ -1,7 +1,7 @@
 import React from 'react';
 import Button from '@mui/material/Button';
-import parkingData from './JSON/ParkingRates.json';
-import './Css/ParkingRates.css'
+import parkingData from '../JSON/ParkingRates.json';
+import '../Css/ParkingRates.css'
 
 const ParkingRates = () => {
   const dataBundles = Object.values(parkingData);

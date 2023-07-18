@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './Css/Hero.css';
+import '../Css/Hero.css';
 import { Container, Row, Col, Form, Button } from 'react-bootstrap';
 import Swal from 'sweetalert';
 import { initializeApp } from 'firebase/app';

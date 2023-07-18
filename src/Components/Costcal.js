@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './Css/Costcal.css';
+import '../Css/Costcal.css';
 import Swal from 'sweetalert';
 
 
