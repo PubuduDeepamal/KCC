@@ -42,17 +42,19 @@ const Costcal = () => {
         icon: 'success',
         title: 'Total Parking Charge',
         text: `$${total}`,
-        timer: 3000, 
-        showCancelButton: false, 
+        timer: 3000,
+        showCancelButton: false,
       });
-      
+
+      // Clear the text box after showing the success message
+      setHours('');
     } else {
       Swal({
         title: 'Error!',
         text: 'Please enter a valid number of hours.',
         icon: 'error',
-        timer: 3000, 
-        button: false, 
+        timer: 3000,
+        button: false,
       });
     }
   };

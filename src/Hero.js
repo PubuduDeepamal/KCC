@@ -42,10 +42,10 @@ export default function HeroImage() {
         title: 'Error!',
         text: 'Message box is empty. Please enter both messages.',
         icon: 'error',
-        timer: 3000, // The popup will close automatically after 3 seconds
-        button: false, // Disable the "Confirm" button
+        timer: 3000, 
+        button: false,
       });
-      return; // Exit the function early if any input is empty
+      return; 
     }
 
     // Save the messages to Firebase

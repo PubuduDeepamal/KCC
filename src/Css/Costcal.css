@@ -1,6 +1,13 @@
 #calbutton{
     margin-bottom: 40px;
     width: 100%;
+    background-Color: #ff4500;
+    border:none;
+    height: 41px;
+}
+
+#calbutton:hover{
+    background-Color: #ce3700;
 }
 
 #bottom1{
@@ -9,4 +16,19 @@
 
 #bottom2{
     margin-bottom: 20px;
+}
+
+.mt-5 {
+    margin-top: 3rem !important;
+    background: #f2f3f8;
+    padding-top: 40px;
+    margin-bottom: 3rem !important;
+}
+
+.form-select {
+    height: 41px;
+}
+
+.form-control {
+    height: 41px;
 }
