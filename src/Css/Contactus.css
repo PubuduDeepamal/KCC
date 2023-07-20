@@ -1,0 +1,38 @@
+ #contacuustittle{   
+   font-size: 3em;
+   line-height: 1.3;
+   padding-bottom: 0.29em;
+   position: relative;
+   text-align: center;
+   margin-top: 30px;
+ }
+
+ #contactsubmit{
+  margin-top: 4%;
+  width: 100%;
+  background-Color: #ff4500;
+  border: none;
+  height: 41px;
+  margin-bottom: 40px;
+ }
+
+ #backgroundcolour{
+   background-color: #f2f3f8;
+   border-radius: 12px;
+   height: 70%;
+   padding-left: 40px;
+   padding-right: 40px;
+ }
+
+ p {
+   text-align: center;
+}
+
+/* Styles for mobile phones */
+@media (max-width: 767px) {
+   #backgroundcolour {
+     margin-left: 5%;
+     width: 90%;
+   }
+ }
+ 

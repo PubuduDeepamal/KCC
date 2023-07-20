@@ -23,6 +23,9 @@
     background: #f2f3f8;
     padding-top: 40px;
     margin-bottom: 3rem !important;
+    border-radius: 12px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 .form-select {
@@ -32,3 +35,11 @@
 .form-control {
     height: 41px;
 }
+
+/* Styles for mobile phones */
+/* @media (max-width: 767px) {
+    #mobrespon {
+      margin-left: 5%;
+      width: 90%;
+    }
+  } */
