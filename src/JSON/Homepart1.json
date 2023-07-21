@@ -1,0 +1,20 @@
+{
+  "features": [
+    {
+      "icon": "clock",
+      "title": "Save Time",
+      "description": "Automate tasks with TimeSaver Pro's smart algorithms, freeing up your schedule for what truly matters."
+    },
+    {
+      "icon": "people-circle",
+      "title": "Save Money",
+      "description": "TimeSaver Pro's cost-effective solution centralizes services and provides financial insights for informed decisions and big savings."
+    },
+    {
+      "icon": "toggles2",
+      "title": "Save Stress",
+      "description": "Stay organized and stress-free with TimeSaver Pro's stress-reducing features, ensuring you never miss a beat. Experience peace of mind."
+    }
+  ]
+}
+

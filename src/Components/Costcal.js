@@ -60,7 +60,7 @@ const Costcal = () => {
   };
 
   return (
-    <div className="container mt-5">
+    <div className="container mt-5" id="mobsize">
       <h1 className="text-center" id="bottom1"><b>Parking Charge Calculator</b></h1>
       <div className="row mt-3">
         <div className="col-md-6 offset-md-3">

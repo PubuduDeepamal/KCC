@@ -37,9 +37,9 @@
 }
 
 /* Styles for mobile phones */
-/* @media (max-width: 767px) {
-    #mobrespon {
+@media (max-width: 767px) {
+    #mobsize{
       margin-left: 5%;
       width: 90%;
     }
-  } */
+  }
