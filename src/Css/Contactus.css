@@ -28,11 +28,20 @@
    text-align: center;
 }
 
+ #marginmanage{
+  margin-top: 80px;
+ }
+
 /* Styles for mobile phones */
 @media (max-width: 767px) {
    #backgroundcolour {
      margin-left: 5%;
      width: 90%;
    }
+
+   #marginmanage{
+    margin-top: 30px;
+   }
+  
  }
  

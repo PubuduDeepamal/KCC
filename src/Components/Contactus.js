@@ -38,10 +38,11 @@ const Contactus = () => {
   };
 
   return (
+    
     <Container className="contact-container">
-      <Row>
+      <Row id="marginmanage">
         <Col md={6} className="contact-info" id="backgroundcolour1">
-          <h2 id="contacuustittle">Contact Information</h2>
+          <h2 id="contacuustittle"><b>Contact Information</b></h2>
           <p><b>Corporate Office Address:</b><br />
             {contactData.corporateAddress}
           </p>
@@ -64,7 +65,7 @@ const Contactus = () => {
         </Col>
 
         <Col md={6} className="contact-form" id="backgroundcolour">
-          <h2 id="contacuustittle">Got a Question?</h2>
+          <h2 id="contacuustittle"><b>Got a Question?</b></h2>
           <Form onSubmit={handleSubmit}>
             <Form.Group controlId="name">
               <Form.Label>Name:</Form.Label>
