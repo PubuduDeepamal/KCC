@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Contacut from './Pages/Contacut';
+import About from './Pages/About';
 import { BrowserRouter as Router, Routes } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.css';
 
 ReactDOM.render(
   <React.StrictMode>
     <Router>
-    <Contacut />
+    <About/>
     {/* <Routes path="/" component={App} /> */}
     </Router>
    
