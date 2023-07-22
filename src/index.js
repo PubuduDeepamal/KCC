@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import About from './Pages/About';
+import Home from './Pages/Home';
 import { BrowserRouter as Router, Routes } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.css';
 
 ReactDOM.render(
   <React.StrictMode>
     <Router>
-    <About/>
+    <Home/>
     {/* <Routes path="/" component={App} /> */}
     </Router>
    

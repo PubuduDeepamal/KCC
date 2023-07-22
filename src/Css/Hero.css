@@ -15,13 +15,13 @@
 
 #postbutton{ 
     height: 46px;
-    background-Color: #ff4500;
+    background-Color: #13c33e;
     color: white;
     border: none;
 }
 
 #postbutton:hover{
-    background-Color: #ce3700;
+    background-Color: #13c33e;
 }
 
 #input{

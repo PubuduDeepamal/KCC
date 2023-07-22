@@ -24,13 +24,13 @@ const Costcal = () => {
     let amount = 0;
     switch (vehicleType) {
       case 'car':
-        amount = 19;
+        amount = 80;
         break;
       case 'van':
-        amount = 30;
+        amount = 100;
         break;
       case 'jeep':
-        amount = 1000;
+        amount = 120;
         break;
       default:
         amount = 0;
@@ -71,9 +71,9 @@ const Costcal = () => {
             value={vehicleType}
             onChange={handleVehicleTypeChange}
           >
-            <option value="car">Car</option>
-            <option value="van">Van</option>
-            <option value="jeep">Jeep</option>
+            <option value="car">Saloon / Hatchback</option>
+            <option value="van">SUV / 4x4 </option>
+            <option value="jeep">Station / wagon</option>
           </select>
         </div>
       </div>

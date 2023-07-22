@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
 import 'bootstrap/dist/js/bootstrap.bundle.min.js'; // Import Bootstrap JS
 import '../Css/Header1.css';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-kit';
 
 const Header = () => {
   return (
@@ -25,9 +26,10 @@ const Header = () => {
 
         <div className="navbar-container">
           <ul className="navbar2" style={{ justifyContent: 'flex-start', display: 'inline-flex' }}>
-            <NavDropdown.Item href="/Home" id="hederhover">Login</NavDropdown.Item>
-            <NavDropdown.Item href="/About" id="hederhover">Register</NavDropdown.Item>
-            <NavDropdown.Item href="#action3" id="hederhover">Help</NavDropdown.Item>
+            <NavDropdown.Item href="/Home" id="hederhover">Home</NavDropdown.Item>
+            <NavDropdown.Item href="/About" id="hederhover">About</NavDropdown.Item>
+            <NavDropdown.Item href="#action3" id="hederhover">Locatin</NavDropdown.Item>
+            <NavDropdown.Item href="/About" id="hederhover">Contact</NavDropdown.Item>
           </ul>
           <button
             className="btn btn-orange" // Add a custom CSS class for the orange button
@@ -35,12 +37,11 @@ const Header = () => {
             type="submit"
             style={{ color: 'white', marginLeft: '25px', marginRight: '-25px' }}
           >
-            Post Your Ad
+            Booking Parking Slot
           </button>
+
           <ul className="navbar2" id="navbar2" style={{ display: 'inline-flex' }}>
-          <NavDropdown.Item href="#action3" className="mobhide" id="hederhover">Eng</NavDropdown.Item>
-          <NavDropdown.Item href="#action3" className="mobhide" id="hederhover">සිංහල</NavDropdown.Item>
-          <NavDropdown.Item href="#action3" className="mobhide" id="தமிழ்">தமிழ்</NavDropdown.Item>
+          <MDBIcon color='secondary' icon='lock' id="தமிழ்" className='me-2'></MDBIcon>
           </ul>
         </div>
       </nav>

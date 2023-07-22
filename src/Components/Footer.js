@@ -1,79 +1,124 @@
-import React, { useEffect, useState } from 'react';
-import Swal from 'sweetalert';
+import React from 'react';
+import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-kit';
+// Import the CSS files
+import 'font-awesome/css/font-awesome.min.css';
+
 
 const Footer = () => {
-  const [currentDateTime, setCurrentDateTime] = useState('');
-
-  useEffect(() => {
-    // Function to get the current date and time
-    const getCurrentDateTime = () => {
-      const currentDate = new Date();
-      const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', hour: '2-digit', minute: '2-digit' };
-      return currentDate.toLocaleDateString(undefined, options);
-    };
-
-    // Update the currentDateTime state every second
-    const interval = setInterval(() => {
-      setCurrentDateTime(getCurrentDateTime());
-    }, 1000);
-
-    // Clear the interval on unmount
-    return () => clearInterval(interval);
-  }, []);
-
-  const handleSubscribe = () => {
-    // Show the SweetAlert message
-    Swal({
-      title: 'Subscribed!',
-      text: 'You have successfully subscribed to our newsletter.',
-      icon: 'success',
-      confirmButtonColor: '#3085d6',
-      confirmButtonText: 'OK'
-    });
-  };
-
   return (
-    <footer className="container py-5">
-      <div className="row">
-        <div className="col-6 col-md-2 mb-3">
-          <h5>Section</h5>
-          <ul className="nav flex-column">
-            <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">Home</a></li>
-            <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">Features</a></li>
-            <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">Pricing</a></li>
-            <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">FAQs</a></li>
-            <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">About</a></li>
-          </ul>
+    <MDBFooter bgColor='light' className='text-center text-lg-start text-muted'>
+      <section className='d-flex justify-content-center justify-content-lg-between p-4 border-bottom'>
+        <div className='me-5 d-none d-lg-block'>
+          <span>Get connected with us on social networks:</span>
         </div>
 
-        <div className="col-6 col-md-2 mb-3">
-          <h5>Section</h5>
-          <ul className="nav flex-column">
-            <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">Home</a></li>
-            <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">Features</a></li>
-            <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">Pricing</a></li>
-            <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">FAQs</a></li>
-            <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">About</a></li>
-          </ul>
+        <div>
+          <a href='' className='me-4 text-reset'>
+          <MDBIcon color='secondary' icon='facebook' className='me-2' />
+          </a>
+          <a href='' className='me-4 text-reset'>
+          <MDBIcon color='secondary' icon='twitter' className='me-2' />
+          </a>
+          <a href='' className='me-4 text-reset'>
+          <MDBIcon color='secondary' icon='instagram' className='me-2' />
+          </a>
+          <a href='' className='me-4 text-reset'>
+          <MDBIcon color='secondary' icon='linkedin' className='me-2' />
+          </a>
         </div>
+      </section>
 
-        <div className="col-md-5 offset-md-1 mb-3">
-          <form>
-            <h5>Subscribe to our newsletter</h5>
-            <div className="d-flex flex-column flex-sm-row w-100 gap-2">
-              <label htmlFor="newsletter1" className="visually-hidden">Email address</label>
-              <input id="newsletter1" type="text" className="form-control" placeholder="Email address" />
-              <button className="btn btn-primary" type="button" onClick={handleSubscribe}>Subscribe</button>
-            </div>
-          </form>
-        </div>
+      <section className=''>
+        <MDBContainer className='text-center text-md-start mt-5'>
+          <MDBRow className='mt-3'>
+            <MDBCol md='3' lg='4' xl='3' className='mx-auto mb-4'>
+              <h6 className='text-uppercase fw-bold mb-4'>
+                <MDBIcon color='secondary' icon='gem' className='me-3' />
+                Company name
+              </h6>
+              <p>
+                Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit
+                amet, consectetur adipisicing elit.
+              </p>
+            </MDBCol>
+
+            <MDBCol md='2' lg='2' xl='2' className='mx-auto mb-4'>
+              <h6 className='text-uppercase fw-bold mb-4'>Products</h6>
+              <p>
+                <a href='#!' className='text-reset'>
+                  Angular
+                </a>
+              </p>
+              <p>
+                <a href='#!' className='text-reset'>
+                  React
+                </a>
+              </p>
+              <p>
+                <a href='#!' className='text-reset'>
+                  Vue
+                </a>
+              </p>
+              <p>
+                <a href='#!' className='text-reset'>
+                  Laravel
+                </a>
+              </p>
+            </MDBCol>
+
+            <MDBCol md='3' lg='2' xl='2' className='mx-auto mb-4'>
+              <h6 className='text-uppercase fw-bold mb-4'>Useful links</h6>
+              <p>
+                <a href='#!' className='text-reset'>
+                  Pricing
+                </a>
+              </p>
+              <p>
+                <a href='#!' className='text-reset'>
+                  Settings
+                </a>
+              </p>
+              <p>
+                <a href='#!' className='text-reset'>
+                  Orders
+                </a>
+              </p>
+              <p>
+                <a href='#!' className='text-reset'>
+                  Help
+                </a>
+              </p>
+            </MDBCol>
+
+            <MDBCol md='4' lg='3' xl='3' className='mx-auto mb-md-0 mb-4'>
+              <h6 className='text-uppercase fw-bold mb-4'>Contact</h6>
+              <p>
+                <MDBIcon color='secondary' icon='home' className='me-2' />
+                New York, NY 10012, US
+              </p>
+              <p>
+                <MDBIcon color='secondary' icon='envelope' className='me-3' />
+                info@example.com
+              </p>
+              <p>
+                <MDBIcon color='secondary' icon='phone' className='me-3' /> + 01 234 567 88
+              </p>
+              <p>
+                <MDBIcon color='secondary' icon='print' className='me-3' /> + 01 234 567 89
+              </p>
+            </MDBCol>
+          </MDBRow>
+        </MDBContainer>
+      </section>
+
+      <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
+        © 2021 Copyright:
+        <a className='text-reset fw-bold' href='https://mdbootstrap.com/'>
+          MDBootstrap.com
+        </a>
       </div>
-
-      <div className="border-top">
-        <p>&copy; {currentDateTime} Company, Inc. All rights reserved.</p>
-      </div>
-    </footer>
+    </MDBFooter>
   );
-};
+}
 
 export default Footer;

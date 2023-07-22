@@ -3,24 +3,16 @@
     margin-top: 20px;
 }
 
-#தமிழ்{
-    margin-right: 30px;
-}
-
-#தமிழ்:hover{
-    color: #a2aabd;
-}
-
 #hederhover:hover{
     color: #a2aabd;
 }
 
 #postbutton{ 
-    background-Color: #ff4500;
+    background-Color: #13c33e;
 }
 
 #postbutton:hover{
-    background-Color: #ce3700;
+    background-Color: #13c33e
 }
 
 .imgiliment{
@@ -32,6 +24,14 @@
 
 #hederwidth{
     height: 70px;
+}
+
+.fa-lock-f:before, .fa-lock:before {
+    content: "\f09a";
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 30px;
+    color: #13c33e;
 }
 
 @media (max-width: 767px) {

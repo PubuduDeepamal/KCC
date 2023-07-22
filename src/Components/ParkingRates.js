@@ -12,8 +12,8 @@ const ParkingRates = () => {
 
       <header>
         <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
-          <h1 class="display-4 fw-normal text-body-emphasis" id="ParkingRatestitle"><b>Pricingeeeee</b></h1>
-          <p class="fs-5 text-body-secondary">Quickly build an effective pricing table for your potential customers with this Bootstrap example. It’s built with default Bootstrap components and utilities with little customization.</p>
+          <h1 class="display-4 fw-normal text-body-emphasis" id="ParkingRatestitle"><b>Pricing package</b></h1>
+          <p class="fs-5 text-body-secondary"></p>
         </div>
       </header>
 
@@ -28,7 +28,7 @@ const ParkingRates = () => {
                 <div className="card-body">
                   <h1 className="card-title pricing-card-title">
                     {bundle.price}
-                    <small className="text-body-secondary fw-light">/mo</small>
+                    <small className="text-body-secondary fw-light">/Per Hour</small>
                   </h1>
                   <ul className="list-unstyled mt-3 mb-4">
                     {bundle.description.split('\n').map((item, index) => (

@@ -1,18 +1,18 @@
 {
     "free": {
-      "title": "Free",
-      "price": "$100000",
-      "description": "10 users included\n2 GB of storage\nEmail support\nHelp center access"
+      "title": "Saloon / Hatchback",
+      "price": "Rs : 80",
+      "description": "The above charges are for one hour only, The hourly rate will be multiplied by the amount of parking time to calculate the total charge."
     },
     "basic": {
-      "title": "Basic",
-      "price": "$9.99",
-      "description": "50 users included\n10 GB of storage\nPriority email support\nHelp center access"
+      "title": "SUV / 4x4 ",
+      "price": "Rs : 100",
+      "description": "The above charges are for one hour only, The hourly rate will be multiplied by the amount of parking time to calculate the total charge."
     },
     "pro": {
-      "title": "Pro",
-      "price": "$19.99",
-      "description": "100 users included\n50 GB of storage\nPhone and email support\nHelp center access"
+      "title": "Station wagon",
+      "price": "Rs : 120",
+      "description": "The above charges are for one hour only, The hourly rate will be multiplied by the amount of parking time to calculate the total charge."
     }
   }
   
