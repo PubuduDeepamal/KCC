@@ -1,0 +1,21 @@
+.text-uppercase {
+    margin-left: 49px;
+}
+
+#footercontact{
+    margin-left: 123px;
+}
+
+/* Styles for mobile phones */
+@media (max-width: 767px) {
+    
+    .text-uppercase {
+        margin-left: 0px;
+    }
+
+    #footercontact{
+        margin-left: 0px;
+    }
+    
+}
+  

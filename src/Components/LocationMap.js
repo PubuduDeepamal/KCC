@@ -16,7 +16,7 @@ const center = {
 const GoogleMapComponent = () => {
   return (
     <main id="mapeliment">
-        <h1 id="parkingtitle"><b>Parking Locations</b></h1>
+        <h1 id="parkingtitle"><b>Parking Location</b></h1>
         <LoadScript googleMapsApiKey="6MV27JRP+PQ">
         <GoogleMap mapContainerStyle={containerStyle} center={center} zoom={13}>
             <Marker position={center} />

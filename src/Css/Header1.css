@@ -31,7 +31,7 @@
     padding-left: 20px;
     padding-right: 20px;
     font-size: 30px;
-    color: #13c33e;
+    color: red;
 }
 
 @media (max-width: 767px) {

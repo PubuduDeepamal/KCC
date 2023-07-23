@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import '../Css/Hero.css';
+import '../Css/AboutHero.css';
 import { Container, Row, Col, Form, Button } from 'react-bootstrap';
 
   const AboutHero = () => {

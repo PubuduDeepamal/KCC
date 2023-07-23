@@ -37,11 +37,12 @@ const Header = () => {
             type="submit"
             style={{ color: 'white', marginLeft: '25px', marginRight: '-25px' }}
           >
+            <MDBIcon color='secondary' icon='lock'  className='me-2'></MDBIcon>
             Booking Parking Slot
           </button>
 
           <ul className="navbar2" id="navbar2" style={{ display: 'inline-flex' }}>
-          <MDBIcon color='secondary' icon='lock' id="தமிழ்" className='me-2'></MDBIcon>
+          <MDBIcon color='secondary' id="தமிழ்" className='me-2'></MDBIcon>
           </ul>
         </div>
       </nav>
