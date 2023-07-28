@@ -1,7 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
 import 'bootstrap/dist/js/bootstrap.bundle.min.js'; // Import Bootstrap JS
-import '../Css/Header1.css';
+import '../../Css/Header1.css';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-kit';
 
@@ -35,9 +35,9 @@ const Header = () => {
             className="btn btn-orange" // Add a custom CSS class for the orange button
             id="postbutton"
             type="submit"
-            style={{ color: 'white', marginLeft: '25px', marginRight: '-25px' }}
+            
           >
-            <MDBIcon color='secondary' icon='lock'  className='me-2'></MDBIcon>
+           
             Booking Parking Slot
           </button>
 

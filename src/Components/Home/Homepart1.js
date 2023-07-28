@@ -1,8 +1,8 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
-import '../Css/Homepart1.css';
-import data from '../JSON/Homepart1.json';
+import '../../Css/Homepart1.css';
+import data from '../../JSON/Homepart1.json';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Homepart1 = () => {

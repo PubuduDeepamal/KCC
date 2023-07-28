@@ -18,10 +18,12 @@
     background-Color: #13c33e;
     color: white;
     border: none;
+    margin-Left: 25px;
+    margin-Right: 25px;
 }
 
 #postbutton:hover{
-    background-Color: #13c33e;
+    background-Color: #008cd1;
 }
 
 #input{
@@ -36,3 +38,14 @@
     height: 50px;
 }
 
+@media (max-width: 768px) {
+    #postbutton {
+        height: 46px;
+        background-Color: #13c33e;
+        color: white;
+        border: none;
+        margin-Left: 28%;
+        margin-Right: 25px;
+        margin-top: 10px;
+    }
+}

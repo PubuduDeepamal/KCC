@@ -1,10 +1,10 @@
 
-import Header1 from '../Components/Header1'
-import Hero from '../Components/Hero'
-import Homepart1 from '../Components/Homepart1'
-import ParkingRates from '../Components/ParkingRates'
-import Costcal from '../Components/Costcal'
-import Footer from '../Components/Footer'
+import Header1 from '../Components/Heder/Header1'
+import Hero from '../Components/Home/Hero'
+import Homepart1 from '../Components/Home/Homepart1'
+import ParkingRates from '../Components/Home/ParkingRates'
+import Costcal from '../Components/Home/Costcal'
+import Footer from '../Components/Footer/Footer'
 
 function Home() {
   return (

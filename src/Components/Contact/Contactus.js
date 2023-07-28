@@ -3,10 +3,10 @@ import { Container, Row, Col, Form, Button } from 'react-bootstrap';
 import Swal from 'sweetalert';
 import { initializeApp } from 'firebase/app';
 import { getDatabase, ref, push, serverTimestamp } from 'firebase/database';
-import '../Css/Contactus.css';
+import '../../Css/Contactus.css';
 
 // Import the JSON data
-import contactData from '../JSON/contactinformation.json';
+import contactData from '../../JSON/contactinformation.json';
 
 const Contactus = () => {
   const [name, setName] = useState('');

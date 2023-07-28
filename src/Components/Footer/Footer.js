@@ -2,8 +2,6 @@ import React from 'react';
 import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-kit';
 // Import the CSS files
 import 'font-awesome/css/font-awesome.min.css';
-import '../Css/Footer.css';
-
 
 const Footer = () => {
   return (
@@ -101,10 +99,7 @@ const Footer = () => {
       </section>
 
       <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
-        © 2023 Copyright : 
-        <a className='text-reset fw-bold' href=''>
-          K.B.M.Pubudu Deepamal
-        </a>
+        © 2023 Copyright By K. B.M.Pubudu Deepamal   
       </div>
     </MDBFooter>
   );
