@@ -3,8 +3,8 @@ import Header1 from '../Components/Heder/Header1'
 import Hero from '../Components/Home/Hero'
 import Homepart1 from '../Components/Home/Homepart1'
 import ParkingRates from '../Components/Home/ParkingRates'
-import Costcal from '../Components/Home/Costcal'
 import Footer from '../Components/Footer/Footer'
+import '../Css/Footer.css';
 
 function Home() {
   return (
@@ -13,7 +13,6 @@ function Home() {
       <Hero/>
       <Homepart1/>
       <ParkingRates/>
-      <Costcal/>
       <Footer/>
     </div>
     
