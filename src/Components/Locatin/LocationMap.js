@@ -1,7 +1,7 @@
 
 import React from "react";
 import { GoogleMap, Marker, LoadScript } from "@react-google-maps/api";
-import '../Css/LocationMap.css';
+import '../../Css/LocationMap.css';
 
 const containerStyle = {
   width: "100%",

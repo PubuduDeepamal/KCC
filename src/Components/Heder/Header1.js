@@ -19,8 +19,8 @@ const Header = () => {
         }}
       >
         <img
-          src="https://www.lankapropertyweb.com/images/logo/lpw_logo_v12.svg"
-          alt="Lanka Property Web Logo"
+          src="../img/KCClogo.png"
+          alt="Kcc logo"
           className='imgiliment'
         />
 
