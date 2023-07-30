@@ -1,16 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Booking from './Pages/Booking';
+import App from './App';
 import { BrowserRouter as Router, Routes } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.css';
+import { BrowserRouter } from 'react-router-dom';
+import reportWebVitals from './reportWebVitals';
 
-ReactDOM.render(
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
   <React.StrictMode>
-    <Router>
-    <Booking/>
-    {/* <Routes path="/" component={App} /> */}
-    </Router>
-   
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
   </React.StrictMode>, 
-  document.getElementById('root')
 );
+
+reportWebVitals();
