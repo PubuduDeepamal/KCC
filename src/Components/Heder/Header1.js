@@ -28,16 +28,15 @@ const Header = () => {
           <ul className="navbar2" style={{ justifyContent: 'flex-start', display: 'inline-flex' }}>
             <NavDropdown.Item href="/Home" id="hederhover">Home</NavDropdown.Item>
             <NavDropdown.Item href="/About" id="hederhover">About</NavDropdown.Item>
-            <NavDropdown.Item href="#action3" id="hederhover">Locatin</NavDropdown.Item>
-            <NavDropdown.Item href="/About" id="hederhover">Contact</NavDropdown.Item>
+            <NavDropdown.Item href="/Locatin" id="hederhover">Locatin</NavDropdown.Item>
+            <NavDropdown.Item href="/Contacut" id="hederhover">Contact</NavDropdown.Item>
           </ul>
           <button
-            className="btn btn-orange" // Add a custom CSS class for the orange button
+            className="btn btn-orange"
             id="postbutton"
             type="submit"
             
           >
-           
             Booking Parking Slot
           </button>
 
