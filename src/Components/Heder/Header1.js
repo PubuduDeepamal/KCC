@@ -26,7 +26,7 @@ const Header = () => {
 
         <div className="navbar-container">
           <ul className="navbar2" style={{ justifyContent: 'flex-start', display: 'inline-flex' }}>
-            <NavDropdown.Item href="/Home" id="hederhover">Home</NavDropdown.Item>
+            <NavDropdown.Item href="/" id="hederhover">Home</NavDropdown.Item>
             <NavDropdown.Item href="/About" id="hederhover">About</NavDropdown.Item>
             <NavDropdown.Item href="/Locatin" id="hederhover">Locatin</NavDropdown.Item>
             <NavDropdown.Item href="/Contacut" id="hederhover">Contact</NavDropdown.Item>

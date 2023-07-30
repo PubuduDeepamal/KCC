@@ -43,12 +43,12 @@ const Footer = () => {
             <MDBCol md='2' lg='2' xl='2' className='mx-auto mb-4'>
               <h6 className='text-uppercase fw-bold mb-4'>USEFUL LINKS</h6>
               <p>
-                <a href='/Home' className='text-reset'>
+                <a href='/' className='text-reset'>
                   Home
                 </a>
               </p>
               <p>
-                <a href='About' className='text-reset'>
+                <a href='/About' className='text-reset'>
                   About Us
                 </a>
               </p>
