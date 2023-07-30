@@ -43,17 +43,17 @@ const Footer = () => {
             <MDBCol md='2' lg='2' xl='2' className='mx-auto mb-4'>
               <h6 className='text-uppercase fw-bold mb-4'>USEFUL LINKS</h6>
               <p>
-                <a href='#!' className='text-reset'>
+                <a href='/Home' className='text-reset'>
                   Home
                 </a>
               </p>
               <p>
-                <a href='#!' className='text-reset'>
+                <a href='About' className='text-reset'>
                   About Us
                 </a>
               </p>
               <p>
-                <a href='#!' className='text-reset'>
+                <a href='/Contacut' className='text-reset'>
                   Contact Us
                 </a>
               </p>
@@ -63,17 +63,17 @@ const Footer = () => {
             <MDBCol md='3' lg='2' xl='2' className='mx-auto mb-4'>
               <h6 className='text-uppercase fw-bold mb-4'>Useful links</h6>
               <p>
-                <a href='#!' className='text-reset'>
+                <a href='/Locatin' className='text-reset'>
                   Location
                 </a>
               </p>
               <p>
-                <a href='#!' className='text-reset'>
+                <a href='/booking' className='text-reset'>
                  Booking Parking Slot
                 </a>
               </p>
               <p>
-              <a href='#!' className='text-reset' onclick='return false;'>
+              <a href='' className='text-reset' Disable>
                   Login
                 </a>
               </p>
