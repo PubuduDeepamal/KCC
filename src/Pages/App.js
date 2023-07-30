@@ -6,8 +6,7 @@ import Costcal from '../Components/Costcal'
 import Contactus from '../Components/Contactus'
 import Footer from '../Components/Footer'
 import {Route, Switch, useHistory} from 'react-router-dom';
-import { useState, useEffect } from 'react';
-
+//3333333333333333
 function App() {
   return (
     <div>
