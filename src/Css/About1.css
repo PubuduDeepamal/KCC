@@ -2,3 +2,7 @@
     .rounded-lg-3 { border-radius: .3rem; }
   }
   
+#paddingseeting {
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+}

@@ -1,0 +1,34 @@
+#ParkingRatestitle{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 40px;
+    font-size: 60px;
+}
+
+#container{
+  background-color: #f2f3f8;
+}
+
+body {
+    background-image: linear-gradient(180deg, var(--bs-secondary-bg), var(--bs-body-bg) 100px, var(--bs-body-bg));
+  }
+  
+  .container {
+    max-width: 960px;
+  }
+  
+  .pricing-header {
+    max-width: 700px;
+  }
+
+  @media only screen and (min-width: 768px) {
+    #margintop {
+      margin-top: 50px;
+    }
+  }
+
+  @media only screen and (max-width: 767px) {
+    #margintop {
+      margin-top: 20px;
+    }
+  }

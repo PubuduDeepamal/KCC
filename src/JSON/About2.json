@@ -1,0 +1,23 @@
+{
+    "free": {
+      "title": "Parking Locations",
+      "price": "1160",
+      "description": "Parking Locations"
+    },
+    "basic": {
+      "title": "SUV / 4x4 ",
+      "price": "95%",
+      "description": "Customer Satisfaction"
+    },
+    "pro": {
+      "title": "Station wagon",
+      "price": "25000+",
+      "description": "Monthly Users"
+    },
+    "pro1": {
+        "title": "Station wagon",
+        "price": "5",
+        "description": "Rated Car Park"
+      }
+  }
+  
