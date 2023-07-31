@@ -1,23 +1,27 @@
 {
     "free": {
-      "title": "Parking Locations",
+      "href": "#",
+      "imageSrc": "https://cdn-icons-png.flaticon.com/512/535/535239.png",
       "price": "1160",
       "description": "Parking Locations"
     },
     "basic": {
-      "title": "SUV / 4x4 ",
+      "href": "#",
+      "imageSrc": "https://cdn-icons-png.flaticon.com/512/1165/1165670.png",
       "price": "95%",
       "description": "Customer Satisfaction"
     },
     "pro": {
-      "title": "Station wagon",
+      "href": "#",
+      "imageSrc": "https://cdn-icons-png.flaticon.com/512/1769/1769041.png",
       "price": "25000+",
       "description": "Monthly Users"
     },
     "pro1": {
-        "title": "Station wagon",
-        "price": "5",
-        "description": "Rated Car Park"
-      }
+      "href": "#",
+      "imageSrc": "https://cdn-icons-png.flaticon.com/512/7170/7170519.png",
+      "price": "5",
+      "description": "Rated Car Park"
+    }
   }
   

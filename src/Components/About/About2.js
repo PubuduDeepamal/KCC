@@ -13,9 +13,14 @@ const About2 = () => {
           <div className="row row-cols-4 mb-3 text-center">
             {dataBundles.map((bundle, index) => (
               <div className="col col-md-3 col-12" key={index} id="margintop">
-                <div className="card mb-4 rounded-3 shadow-sm">
-                    <br></br>
-                  <h4 className="my-0 fw-normal">{bundle.title}</h4>
+                <div className="card mb-4 rounded-3 shadow-sm" id='box'>
+                  {/* Display the image using the <img> tag */}
+                  <img 
+                    id='ICON'
+                    src={bundle.imageSrc} // Assuming bundle.imageSrc contains the URL of the image
+                    alt={`Bundle ${index + 1}`} // Optional: Provide an alt text for accessibility
+                    className="card-img-top" // Optional: Add a class for styling
+                  />
                   <div className="card-body">
                     <h1 className="card-title pricing-card-title">
                       {bundle.price}

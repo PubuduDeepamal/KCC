@@ -21,6 +21,17 @@ body {
     max-width: 700px;
   }
 
+  #ICON{
+    height: 100px;
+    width: 100px;
+    margin-left: 34%;
+    margin-top: 40px;
+  }
+
+  #box:hover{
+    border: 1px solid #008cd1;
+  }
+    
   @media only screen and (min-width: 768px) {
     #margintop {
       margin-top: 50px;
