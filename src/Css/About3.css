@@ -112,6 +112,7 @@ p {
 #blogtitle{
   margin-top: 0px;
   font-family: 'Times New Roman', serif;
+  font-size: 60px;
 }
 
 .blog-card .blog-table {

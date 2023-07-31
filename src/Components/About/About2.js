@@ -22,10 +22,10 @@ const About2 = () => {
                     className="card-img-top" // Optional: Add a class for styling
                   />
                   <div className="card-body">
-                    <h1 className="card-title pricing-card-title">
+                    <h1 className="card-title pricing-card-title" id="font">
                       {bundle.price}
                     </h1>
-                    <ul className="list-unstyled mt-3 mb-4">
+                    <ul className="list-unstyled mt-3 mb-4" id="font">
                       {bundle.description.split('\n').map((item, index) => (
                         <li key={index}>{item}</li>
                       ))}
