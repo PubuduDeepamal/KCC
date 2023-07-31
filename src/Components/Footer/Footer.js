@@ -13,16 +13,16 @@ const Footer = () => {
 
         <div>
           <a href='' className='me-4 text-reset'>
-          <MDBIcon color='secondary' icon='facebook' className='me-2' />
+            <MDBIcon color='secondary' icon='facebook' className='me-2' />
           </a>
           <a href='' className='me-4 text-reset'>
-          <MDBIcon color='secondary' icon='twitter' className='me-2' />
+            <MDBIcon color='secondary' icon='twitter' className='me-2' />
           </a>
           <a href='' className='me-4 text-reset'>
-          <MDBIcon color='secondary' icon='instagram' className='me-2' />
+            <MDBIcon color='secondary' icon='instagram' className='me-2' />
           </a>
           <a href='' className='me-4 text-reset'>
-          <MDBIcon color='secondary' icon='linkedin' className='me-2' />
+            <MDBIcon color='secondary' icon='linkedin' className='me-2' />
           </a>
         </div>
       </section>
@@ -36,7 +36,7 @@ const Footer = () => {
                 Kandy City Car Park
               </h6>
               <p>
-              KCC car park is a parking facility associated with KCC. it offers parking services for vehicles at a specified location.
+                KCC car park is a parking facility associated with KCC. it offers parking services for vehicles at a specified location.
               </p>
             </MDBCol>
 
@@ -53,7 +53,7 @@ const Footer = () => {
                 </a>
               </p>
               <p>
-                <a href='/Contacut' className='text-reset'>
+                <a href='/Contact' className='text-reset'>
                   Contact Us
                 </a>
               </p>
@@ -63,17 +63,17 @@ const Footer = () => {
             <MDBCol md='3' lg='2' xl='2' className='mx-auto mb-4'>
               <h6 className='text-uppercase fw-bold mb-4'>Useful links</h6>
               <p>
-                <a href='/Locatin' className='text-reset'>
+                <a href='/Location' className='text-reset'>
                   Location
                 </a>
               </p>
               <p>
-                <a href='/booking' className='text-reset'>
-                 Booking Parking Slot
+                <a href='/Booking' className='text-reset'>
+                  Booking Parking Slot
                 </a>
               </p>
               <p>
-              <a href='' className='text-reset' Disable>
+                <a href='' className='text-reset' disable>
                   Login
                 </a>
               </p>
@@ -99,7 +99,7 @@ const Footer = () => {
       </section>
 
       <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
-        © 2023 Copyright By K. B.M.Pubudu Deepamal   
+        © 2023 Copyright By K. B. M. Pubudu Deepamal
       </div>
     </MDBFooter>
   );

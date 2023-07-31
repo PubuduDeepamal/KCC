@@ -14,6 +14,8 @@
 #FONTSIZE{
   margin-bottom: 1.5rem !important;
   FONT-SIZE: 16PX;
+  font-style: italic;
+  color: black;
 }
 
 @media (max-width: 768px) {
