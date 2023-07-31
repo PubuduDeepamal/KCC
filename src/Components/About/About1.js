@@ -9,9 +9,9 @@ const About1 = () => {
           {/* Left Side Content */}
           <div className="col-lg-6">
             <div className="px-4 py-5 text-center" id="paddingseeting">
-              <h1 className="display-5 fw-bold text-body-emphasis">Our History</h1>
+              <h1 className="display-5 fw-bold text-body-emphasis">About</h1>
               <div className="col-lg-10 mx-auto">
-                <p className="lead mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world's most popular front-end open-source toolkit, featuring Sass variables and mixins, a responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+                <p className="lead mb-4" id='FONTSIZE'>Kandy Municipal Council Car Park is a Parking lot located in Kandy. It is one of the 1160 Parking lots in Sri Lanka. Address of Kandy Municipal Council Car Park is Sri Wickrama Rajasinghe Mawatha, Kandy, Sri Lanka. Kandy Municipal Council Car Park can be contacted at 94812922321. Kandy Municipal Council Car Park is located in a busy area and we are covering at least 732 places around it on Srilanka-Places.com. Kandy Municipal Council Car Park is rated 4.5 (out of 5 stars) by 422 reviewers on the web.</p>
               </div>
             </div>
           </div>

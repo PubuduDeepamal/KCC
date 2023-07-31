@@ -11,6 +11,11 @@
   background-color: #f2f3f8;
 }
 
+#FONTSIZE{
+  margin-bottom: 1.5rem !important;
+  FONT-SIZE: 14PX;
+}
+
 @media (max-width: 768px) {
   #paddingseeting {
       padding-top: 5rem !important;
