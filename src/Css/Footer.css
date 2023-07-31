@@ -4,6 +4,7 @@
 
 #footercontact{
     margin-left: 123px;
+    font-family: 'Times New Roman', serif;
 }
 
 /* Styles for mobile phones */
@@ -21,4 +22,13 @@
 
 .text-reset{
     text-decoration:none;
+    font-family: 'Times New Roman', serif;
+}
+
+#fontstyle{
+    font-family: 'Times New Roman', serif;
+}
+
+.me-3{
+    font-family: 'Times New Roman', serif;
 }

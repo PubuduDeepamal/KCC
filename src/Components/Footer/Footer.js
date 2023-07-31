@@ -35,13 +35,13 @@ const Footer = () => {
                 <MDBIcon color='secondary' icon='gem' className='me-3' />
                 Kandy City Car Park
               </h6>
-              <p>
+              <p id="fontstyle">
                 KCC car park is a parking facility associated with KCC. it offers parking services for vehicles at a specified location.
               </p>
             </MDBCol>
 
             <MDBCol md='2' lg='2' xl='2' className='mx-auto mb-4'>
-              <h6 className='text-uppercase fw-bold mb-4'>USEFUL LINKS</h6>
+              <h6 className='text-uppercase fw-bold mb-4' id="fontstyle">USEFUL LINKS</h6>
               <p>
                 <a href='/' className='text-reset'>
                   Home
@@ -61,7 +61,7 @@ const Footer = () => {
             </MDBCol>
 
             <MDBCol md='3' lg='2' xl='2' className='mx-auto mb-4'>
-              <h6 className='text-uppercase fw-bold mb-4'>Useful links</h6>
+              <h6 className='text-uppercase fw-bold mb-4' id="fontstyle">Useful links</h6>
               <p>
                 <a href='/Location' className='text-reset'>
                   Location
@@ -82,15 +82,15 @@ const Footer = () => {
 
             <MDBCol md='4' lg='3' xl='3' className='mx-auto mb-md-0 mb-4'>
               <h6 className='text-uppercase fw-bold mb-4' id="footercontact">Contact</h6>
-              <p>
+              <p id="fontstyle">
                 <MDBIcon color='secondary' icon='home' className='me-2' />
                   Kandy City Centre, Sri Dalada Veediya, Kandy 20000
               </p>
-              <p>
+              <p id="fontstyle">
                 <MDBIcon color='secondary' icon='envelope' className='me-3' />
                 kcc@gmail.com
               </p>
-              <p>
+              <p id="fontstyle">
                 <MDBIcon color='secondary' icon='phone' className='me-3' /> 081 234 6578
               </p>
             </MDBCol>
@@ -98,7 +98,7 @@ const Footer = () => {
         </MDBContainer>
       </section>
 
-      <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
+      <div className='text-center p-4' id="fontstyle" style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
         © 2023 Copyright By K. B. M. Pubudu Deepamal
       </div>
     </MDBFooter>
