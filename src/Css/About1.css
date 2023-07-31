@@ -14,8 +14,12 @@
 #FONTSIZE{
   margin-bottom: 1.5rem !important;
   FONT-SIZE: 16PX;
-  font-style: italic;
+  font-family: 'Times New Roman', serif;
   color: black;
+}
+
+#fonttype{
+  font-family: 'Times New Roman', serif;
 }
 
 @media (max-width: 768px) {

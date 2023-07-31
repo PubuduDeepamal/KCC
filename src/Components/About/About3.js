@@ -17,7 +17,7 @@ const About3 = () => {
     <div class="blog-table">
         <h6 class="blog-category blog-text-success"><i class="far fa-newspaper"></i> News</h6>
         <h4 class="blog-card-caption">
-            <a href="#">Complete Parking Guidance System Installation</a>
+            <a id="font" href="#">Complete Parking Guidance System Installation</a>
         </h4>
         <div class="ftr">
             <div class="stats"> <i class="far fa-clock"></i> December 21, 2017 </div>
@@ -36,7 +36,7 @@ const About3 = () => {
     <div class="blog-table">
         <h6 class="blog-category blog-text-success"><i class="fas fa-blog"></i> News</h6>
         <h4 class="blog-card-caption">
-            <a href="#">Parking Spaces That Could Make You Rich</a>
+            <a id="font" href="#">Parking Spaces That Could Make You Rich</a>
         </h4>
         <div class="ftr">
             <div class="stats"> <i class="far fa-clock"></i> December 16, 2022 </div>
@@ -54,7 +54,7 @@ const About3 = () => {
     <div class="blog-table">
         <h6 class="blog-category blog-text-success"><i class="far fa-newspaper"></i> News</h6>
         <h4 class="blog-card-caption">
-            <a href="#">Car Culture is Nothing to Be Proud of</a>
+            <a id="font" href="#">Car Culture is Nothing to Be Proud of</a>
         </h4>
         <div class="ftr">
 

@@ -106,12 +106,18 @@ p {
 .blog-card .ftr .stats {
     float: right;
     line-height: 30px;
+    margin-bottom: 6px;
 }
 
 #blogtitle{
   margin-top: 0px;
+  font-family: 'Times New Roman', serif;
 }
 
 .blog-card .blog-table {
   margin-top: 40px;
+}
+
+#font{
+    font-family: 'Times New Roman', serif;
 }
