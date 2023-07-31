@@ -29,3 +29,10 @@
       padding-bottom: 3rem !important;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .mobile-image {
+    width: 100%; /* Adjust the width as needed for your layout */
+    height: auto; /* This will maintain the image aspect ratio */
+  }
+}
