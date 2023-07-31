@@ -6,13 +6,15 @@
 }
 
 #parkingtitle{
-   font-size: 3em;
+   font-size: 60px;
    line-height: 1.3;
    padding-bottom: 0.29em;
    position: relative;
    text-align: center;
    margin-top: 30px;
    margin-bottom: 40px;
+   font-family: 'Times New Roman', serif;
+
 }
 
 /* Styles for mobile phones */
