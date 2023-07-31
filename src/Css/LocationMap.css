@@ -17,6 +17,10 @@
 
 }
 
+.map{
+    border-radius: 10px;
+}
+
 /* Styles for mobile phones */
 @media (max-width: 767px) {
     #mapeliment{
