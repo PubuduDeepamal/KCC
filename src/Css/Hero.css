@@ -7,6 +7,7 @@
     font-size: 60px;
     color: white;
     font-weight: bold;
+    font-family: 'Times New Roman', serif;
 }
 
 .text-white {
@@ -54,5 +55,6 @@
         font-size: 60px;
         color: white;
         font-weight: bold;
+        font-family: 'Times New Roman', serif;
     }
 }
