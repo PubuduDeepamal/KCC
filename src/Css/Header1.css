@@ -3,12 +3,17 @@
     margin-top: 20px;
 }
 
+#hederhover{
+    font-family: 'Times New Roman', serif;
+}
+
 #hederhover:hover{
     color: #a2aabd;
 }
 
 #postbutton{ 
     background-Color: #13c33e;
+    font-family: 'Times New Roman', serif;
 }
 
 #postbutton:hover{
