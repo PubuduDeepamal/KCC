@@ -43,23 +43,23 @@ const Contactus = () => {
       <Row id="marginmanage">
         <Col md={6} className="contact-info" id="backgroundcolour1">
           <h2 id="contacuustittle"><b>Contact Information</b></h2>
-          <p><b>Corporate Office Address:</b><br />
+          <p id='contacttitle1'><b>Corporate Office Address:</b><br />
             {contactData.corporateAddress}
           </p>
 
-          <p><b>Customer Service:</b><br />
+          <p id='contacttitle1'><b>Customer Service:</b><br />
             {contactData.customerServicePhone}
           </p>
 
-          <p><b>E-mail:</b><br />
+          <p id='contacttitle1'><b>E-mail:</b><br />
             {contactData.email}
           </p>
 
-          <p><b>Corporate Office Hours:</b><br />
+          <p id='contacttitle1'><b>Corporate Office Hours:</b><br />
             {contactData.corporateOfficeHours}
           </p>
 
-          <p><b>Customer Service Hours:</b><br />
+          <p id='contacttitle1'><b>Customer Service Hours:</b><br />
             {contactData.customerServiceHours}
           </p>
         </Col>
