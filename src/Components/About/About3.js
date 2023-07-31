@@ -1,7 +1,7 @@
 import React from 'react';
-import '../../Css/About1.css';
+import '../../Css/About3.css';
 
-const About1 = () => {
+const About3 = () => {
   return (
    <main id="container">
       <div className="container">
@@ -26,4 +26,4 @@ const About1 = () => {
   );
 };
 
-export default About1;
+export default About3;

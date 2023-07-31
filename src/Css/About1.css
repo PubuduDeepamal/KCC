@@ -6,3 +6,14 @@
     padding-top: 10rem !important;
     padding-bottom: 10rem !important;
 }
+
+#container {
+  background-color: #f2f3f8;
+}
+
+@media (max-width: 768px) {
+  #paddingseeting {
+      padding-top: 5rem !important;
+      padding-bottom: 3rem !important;
+  }
+}
