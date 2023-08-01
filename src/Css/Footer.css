@@ -32,3 +32,8 @@
 .me-3{
     font-family: 'Times New Roman', serif;
 }
+
+#icon{
+    background: white;
+    border: none;
+}

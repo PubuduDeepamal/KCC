@@ -2,6 +2,7 @@ import React from 'react';
 import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-kit';
 // Import the CSS files
 import 'font-awesome/css/font-awesome.min.css';
+import '../../Css/Footer.css';
 
 const Footer = () => {
   return (
@@ -12,18 +13,18 @@ const Footer = () => {
         </div>
 
         <div>
-          <a href='' className='me-4 text-reset'>
+          <button className='me-4 text-reset' id="icon" onClick={() => window.open('https://www.facebook.com/')}>
             <MDBIcon color='secondary' icon='facebook' className='me-2' />
-          </a>
-          <a href='' className='me-4 text-reset'>
+          </button>
+          <button className='me-4 text-reset' id="icon" onClick={() => window.open('https://www.twitter.com/')}>
             <MDBIcon color='secondary' icon='twitter' className='me-2' />
-          </a>
-          <a href='' className='me-4 text-reset'>
+          </button>
+          <button className='me-4 text-reset' id="icon" onClick={() => window.open('https://www.instagram.com/')}>
             <MDBIcon color='secondary' icon='instagram' className='me-2' />
-          </a>
-          <a href='' className='me-4 text-reset'>
+          </button>
+          <button className='me-4 text-reset' id="icon" onClick={() => window.open('https://www.linkedin.com/')}>
             <MDBIcon color='secondary' icon='linkedin' className='me-2' />
-          </a>
+          </button>
         </div>
       </section>
 
@@ -72,11 +73,13 @@ const Footer = () => {
                   Booking Parking Slot
                 </a>
               </p>
+
               <p>
-                <a href='' className='text-reset' disable>
-                  Login
+                <a href='/Booking' className='text-reset'>
+                Login
                 </a>
               </p>
+              
 
             </MDBCol>
 
