@@ -1,10 +1,12 @@
 import React, { useState } from 'react';
+
 import '../../Css/AdminLogin.css';
 import Swal from 'sweetalert';
 
 const AdminLogin1 = () => {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
+
 
   const handleFormSubmit = (event) => {
     event.preventDefault();
@@ -25,6 +27,7 @@ const AdminLogin1 = () => {
       // Perform the login action here, e.g., redirect to a dashboard page
       console.log('Login successful!');
       // Replace the console.log with the action you want to take upon successful login.
+
     } else {
       // Display SweetAlert error message
       Swal({
