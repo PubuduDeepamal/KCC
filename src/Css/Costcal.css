@@ -4,6 +4,7 @@
     background-Color: #13c33e;
     border:none;
     height: 41px;
+    font-family: 'Times New Roman', serif;
 }
 
 #calbutton:hover{
@@ -12,10 +13,13 @@
 
 #bottom1{
     margin-bottom: 40px;
+    font-family: 'Times New Roman', serif;
+    font-size: 60px;
 }
 
 #bottom2{
     margin-bottom: 20px;
+    font-family: 'Times New Roman', serif;
 }
 
 .mt-5 {
