@@ -55,4 +55,10 @@
    }
   
  }
+
+ @media screen and (max-width: 767px) {
+  #contacuustittle {
+    font-size: 40px;
+  }
+}
  

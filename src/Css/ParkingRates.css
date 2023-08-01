@@ -5,6 +5,7 @@
     font-size: 60px;
 }
 
+
 #container{
   background-color: #f2f3f8;
 }
@@ -30,4 +31,9 @@ body {
 #calbutton:hover{
     background-Color: #13c33e;
 }
-  
+
+@media screen and (max-width: 767px) {
+  #ParkingRatestitle {
+    font-size: 40px; 
+  }
+}
