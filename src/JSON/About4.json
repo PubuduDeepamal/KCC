@@ -1,0 +1,33 @@
+{
+    "free": {
+      "href": "#",
+      "imageSrc": "https://cdn-icons-png.flaticon.com/512/1545/1545911.png",
+      "description": "Open Air & Covered Parking"
+    },
+    "basic": {
+      "href": "#",
+      "imageSrc": "https://cdn-icons-png.flaticon.com/512/4685/4685950.png",
+      "description": "Parking Open 24 Hours"
+    },
+    "pro": {
+      "href": "#",
+      "imageSrc": "https://as2.ftcdn.net/v2/jpg/03/12/15/33/1000_F_312153321_4LZZt9ujFjetcPQz6Vl0kVouPmagQWpL.jpg",
+      "description": "Guaranteed Reservations"
+    },
+    "pro1": {
+      "href": "#",
+      "imageSrc": "https://cdn-icons-png.flaticon.com/512/5567/5567776.png",
+      "description": "Electric Vehicle Charging"
+    },
+    "pro2": {
+        "href": "#",
+        "imageSrc": "https://cdn-icons-png.flaticon.com/512/10590/10590432.png",
+        "description": "Free Battery Jump Service"
+    },
+    "pro3": {
+        "href": "#",
+        "imageSrc": "https://cdn-icons-png.flaticon.com/512/2422/2422813.png",
+        "description": "Free Tire Inflation Service"
+    }
+  }
+  
