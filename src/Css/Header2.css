@@ -1,25 +1,6 @@
-@media (min-width: 992px) 
-{
-    .navbar-expand-lg .navbar-collapse {
-      background: white;
-      height: 70px;
+@media (max-width: 767px) {
+    .hederhover1 {
+        margin-left: 137px;
+       
     }
 }
-
-.navbar-expand-lg .navbar-nav .nav-link 
-{
-    color: black;
-}
-
-.dropdown-toggle::after {
-    display: contents;
-}
-
-#paddingmanage{
-    padding-bottom: 0px;
-}
-
-.navbar > .container, .navbar > .container-fluid, .navbar > .container-sm, .navbar > .container-md, .navbar > .container-lg, .navbar > .container-xl, .navbar > .container-xxl {
-    padding: 0px;
-}
-
