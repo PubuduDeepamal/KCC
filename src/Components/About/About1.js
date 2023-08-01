@@ -19,7 +19,7 @@ const About1 = () => {
 
           {/* Right Side Image */}
           <div className="col-lg-6">
-            <img className="d-block mx-auto mb-4 mobile-image" src="../img/img-benefits.webp" alt="Your Image" width="400" height="300" />
+            <img className="d-block mx-auto mb-4 mobile-image" src="../img/img-benefits.webp" alt="n1" width="400" height="300" />
           </div>
         </div>
       </div>
