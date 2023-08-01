@@ -25,7 +25,7 @@ const AdminLogin1 = () => {
 
     if (isValidUser) {
       // Redirect to the home page upon successful login
-      navigate('/home');
+      navigate('/');
       console.log('Login successful!');
       // Replace the console.log with the action you want to take upon successful login.
     } else {
@@ -58,7 +58,7 @@ const AdminLogin1 = () => {
                 value={username}
                 onChange={(e) => setUsername(e.target.value)}
               />
-              <label htmlFor="floatingInput">Email address</label>
+              <label htmlFor="floatingInput" id="font">Email address</label>
             </div>
             <br />
             <div className="form-floating">
@@ -70,12 +70,12 @@ const AdminLogin1 = () => {
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
               />
-              <label htmlFor="floatingPassword">Password</label>
+              <label htmlFor="floatingPassword" id="font">Password</label>
             </div>
 
             <div className="form-check text-start my-3">
               <input className="form-check-input" type="checkbox" value="remember-me" id="flexCheckDefault" />
-              <label className="form-check-label" htmlFor="flexCheckDefault">
+              <label className="form-check-label" htmlFor="flexCheckDefault" id="font">
                 Remember me
               </label>
             </div>
