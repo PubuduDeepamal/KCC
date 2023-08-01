@@ -17,6 +17,7 @@ const AdminLogin1 = () => {
               <input type="email" className="form-control" id="floatingInput" placeholder="name@example.com" />
               <label htmlFor="floatingInput">Email address</label>
             </div>
+            <br></br>
             <div className="form-floating">
               <input type="password" className="form-control" id="floatingPassword" placeholder="Password" />
               <label htmlFor="floatingPassword">Password</label>
@@ -28,7 +29,7 @@ const AdminLogin1 = () => {
                 Remember me
               </label>
             </div>
-            <button className="btn btn-primary w-100 py-2" type="submit">Sign in</button>
+            <button className="btn btn-primary w-100 py-2" id="Sign" type="submit">Sign in</button>
           </form>
         </main>
       </div>
