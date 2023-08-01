@@ -23,14 +23,14 @@ const ParkingRates = () => {
             <div className="col" key={index}>
               <div className="card mb-4 rounded-3 shadow-sm">
                 <div className="card-header py-3">
-                  <h4 className="my-0 fw-normal">{bundle.title}</h4>
+                  <h4 className="my-0 fw-normal" id='font'>{bundle.title}</h4>
                 </div>
                 <div className="card-body">
                   <h1 className="card-title pricing-card-title">
                     {bundle.price}
-                    <small className="text-body-secondary fw-light">/Per Hour</small>
+                    <small className="text-body-secondary fw-light" id='font'>/Per Hour</small>
                   </h1>
-                  <ul className="list-unstyled mt-3 mb-4">
+                  <ul className="list-unstyled mt-3 mb-4" id='font'>
                     {bundle.description.split('\n').map((item, index) => (
                       <li key={index}>{item}</li>
                     ))}
