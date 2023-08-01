@@ -20,7 +20,7 @@ const Homepart1 = () => {
               <h3 className="fs-2 text-body-emphasis" id="titleicon">
                 <b> {feature.title}</b>
               </h3>
-              <p>{feature.description}</p>
+              <p id="titleicon">{feature.description}</p>
             </div>
           </div>
         ))}

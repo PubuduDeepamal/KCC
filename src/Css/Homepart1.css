@@ -15,6 +15,14 @@ p {
     text-align: center;
 }
 
+#titleicon{
+    font-family: 'Times New Roman', serif;
+}
+
+.rounded {
+    height: 200px;
+}
+
 
 
 
