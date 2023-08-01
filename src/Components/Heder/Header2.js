@@ -4,7 +4,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js'; // Import Bootstrap JS
 import '../../Css/Header1.css';
 import '../../Css/Header2.css';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-kit';
+import { MDBIcon } from 'mdb-react-ui-kit';
 
 const Header2 = () => {
   return (
