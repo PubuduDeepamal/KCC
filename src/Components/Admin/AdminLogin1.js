@@ -1,19 +1,19 @@
 import React, { useState } from 'react';
-
-import '../../Css/AdminLogin.css';
+import { useNavigate } from 'react-router-dom';
 import Swal from 'sweetalert';
+import '../../Css/AdminLogin.css';
 
 const AdminLogin1 = () => {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
-
+  const navigate = useNavigate();
 
   const handleFormSubmit = (event) => {
     event.preventDefault();
 
     // Define 3 sets of valid usernames and passwords
     const validUsers = [
-      { username: 'user', password: '1234' },
+      { username: 'user2@example.com', password: '1234' },
       { username: 'user2@example.com', password: 'password2' },
       { username: 'user3@example.com', password: 'password3' },
     ];
@@ -24,10 +24,10 @@ const AdminLogin1 = () => {
     );
 
     if (isValidUser) {
-      // Perform the login action here, e.g., redirect to a dashboard page
+      // Redirect to the home page upon successful login
+      navigate('/home');
       console.log('Login successful!');
       // Replace the console.log with the action you want to take upon successful login.
-
     } else {
       // Display SweetAlert error message
       Swal({
