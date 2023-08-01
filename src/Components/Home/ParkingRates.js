@@ -12,7 +12,7 @@ const ParkingRates = () => {
 
       <header>
         <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
-          <h1 class="display-4 fw-normal text-body-emphasis" id="ParkingRatestitle">Pricing Package</h1>
+          <h1 class="display-4 fw-normal text-body-emphasis" id="ParkingRatestitle">Parking Options and Rates</h1>
           <p class="fs-5 text-body-secondary"></p>
         </div>
       </header>
