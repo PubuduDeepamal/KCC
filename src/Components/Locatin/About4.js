@@ -8,13 +8,14 @@ const About4 = () => {
 
   return (
     <div id='container2'>
-     <br></br> <br></br> 
+      <br></br> <br></br> 
       <h1 id="blogtitle"><b>Parking Amenities</b></h1>
       <div className="container py-3">
         <main>
-          <div className="row row-cols-4 mb-3 text-center">
+          {/* Remove the row-cols-4 class */}
+          <div className="row mb-3 text-center">
             {dataBundles.map((bundle, index) => (
-              <div className="col col-md-3 col-12" key={index} id="margintop">
+              <div className="col col-md-4 col-12" key={index} id="margintop">
                 <div className="card mb-4 rounded-3 shadow-sm" id='box'>
                   {/* Display the image using the <img> tag */}
                   <img 
@@ -24,9 +25,6 @@ const About4 = () => {
                     className="card-img-top" // Optional: Add a class for styling
                   />
                   <div className="card-body">
-                    <h1 className="card-title pricing-card-title" id="font">
-                      {bundle.price}
-                    </h1>
                     <ul className="list-unstyled mt-3 mb-4" id="font">
                       {bundle.description.split('\n').map((item, index) => (
                         <li key={index}>{item}</li>
