@@ -6,6 +6,7 @@ import About from './pages/About'
 import Booking from './pages/Booking'
 import Locatin from './pages/Locatin'
 import Contacut from './pages/Contacut'
+import AdminLogin from './pages/Admin/AdminLogin'
 import Footer from './Components/Footer/Footer'
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path='/Locatin' element = {<Locatin/>}/>
         <Route path='/contacut' element = {<Contacut/>}/>
         <Route path='/booking' element = {<Booking/>}/>
+        <Route path='/AdminLogin' element = {<AdminLogin/>}/>
       </Routes>
       <Footer />
     </>
