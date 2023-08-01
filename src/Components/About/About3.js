@@ -3,70 +3,102 @@ import '../../Css/About3.css';
 
 const About3 = () => {
   return (
-   <main id="container">
-  <br></br> <br></br>     
-<h1 id="blogtitle"><b>Latest News</b></h1>
-<div class="container">
-  <div class="row">
-    <div class="col-md-4">
-  <div class="blog-card blog-card-blog">
-    <div class="blog-card-image">
-    <img className="Alimentphoto" src="https://parkivia.ancorathemes.com/wp-content/uploads/2017/12/post-3-copyright-370x220.jpg" alt="Your Image"/>
-        <div class="ripple-cont"></div>
-    </div>
-    <div class="blog-table">
-        <h6 class="blog-category blog-text-success"><i class="far fa-newspaper"></i> News</h6>
-        <h4 class="blog-card-caption">
-            <a id="font" href="#">Complete Parking Guidance System Installation</a>
-        </h4>
-        <div class="ftr">
-            <div class="stats"> <i class="far fa-clock"></i> December 21, 2017 </div>
-        </div>
-    </div>
-</div>
-</div>
-    
-    
-    <div class="col-md-4">
-  <div class="blog-card blog-card-blog">
-    <div class="blog-card-image">
-    <img className="Alimentphoto" src="https://parkivia.ancorathemes.com/wp-content/uploads/2017/12/post-4-copyright-370x220.jpg" alt="Your Image"/>
-        <div class="ripple-cont"></div>
-    </div>
-    <div class="blog-table">
-        <h6 class="blog-category blog-text-success"><i class="fas fa-blog"></i> News</h6>
-        <h4 class="blog-card-caption">
-            <a id="font" href="#">Parking Spaces That Could Make You Rich</a>
-        </h4>
-        <div class="ftr">
-            <div class="stats"> <i class="far fa-clock"></i> December 16, 2022 </div>
-        </div>
-    </div>
-</div>
-</div>
-    
-    <div class="col-md-4">
-  <div class="blog-card blog-card-blog">
-    <div class="blog-card-image">
-    <img className="Alimentphoto" src="https://parkivia.ancorathemes.com/wp-content/uploads/2017/12/post-1-copyright-370x220.jpg" alt="Your Image"/>
-        <div class="ripple-cont"></div>
-    </div>
-    <div class="blog-table">
-        <h6 class="blog-category blog-text-success"><i class="far fa-newspaper"></i> News</h6>
-        <h4 class="blog-card-caption">
-            <a id="font" href="#">Car Culture is Nothing to Be Proud of</a>
-        </h4>
-        <div class="ftr">
+    <main id="container">
+      <br />
+      <br />
+      <h1 id="blogtitle">
+        <b>Latest News</b>
+      </h1>
+      <div className="container">
+        <div className="row">
+          <div className="col-md-4">
+            <div className="blog-card blog-card-blog">
+              <div className="blog-card-image">
+                <img
+                  className="Alimentphoto"
+                  src="https://parkivia.ancorathemes.com/wp-content/uploads/2017/12/post-3-copyright-370x220.jpg"
+                  alt="Your Image"
+                />
+                <div className="ripple-cont"></div>
+              </div>
+              <div className="blog-table">
+                <h6 className="blog-category blog-text-success">
+                  <i className="far fa-newspaper"></i> News
+                </h6>
+                <h4 className="blog-card-caption">
+                  <a id="font" href="#">
+                    Complete Parking Guidance System Installation
+                  </a>
+                </h4>
+                <div className="ftr">
+                  <div className="stats">
+                    <i className="far fa-clock"></i> December 21, 2017
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
 
-            <div class="stats"> <i class="far fa-clock"></i> Feb 16, 2023 </div>
+          <div className="col-md-4">
+            <div className="blog-card blog-card-blog">
+              <div className="blog-card-image">
+                <img
+                  className="Alimentphoto"
+                  src="https://parkivia.ancorathemes.com/wp-content/uploads/2017/12/post-4-copyright-370x220.jpg"
+                  alt="Your Image"
+                />
+                <div className="ripple-cont"></div>
+              </div>
+              <div className="blog-table">
+                <h6 className="blog-category blog-text-success">
+                  <i className="fas fa-blog"></i> News
+                </h6>
+                <h4 className="blog-card-caption">
+                  <a id="font" href="#">
+                    Parking Spaces That Could Make You Rich
+                  </a>
+                </h4>
+                <div className="ftr">
+                  <div className="stats">
+                    <i className="far fa-clock"></i> December 16, 2022
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="col-md-4">
+            <div className="blog-card blog-card-blog">
+              <div className="blog-card-image">
+                <img
+                  className="Alimentphoto"
+                  src="https://parkivia.ancorathemes.com/wp-content/uploads/2017/12/post-1-copyright-370x220.jpg"
+                  alt="Your Image"
+                />
+                <div className="ripple-cont"></div>
+              </div>
+              <div className="blog-table">
+                <h6 className="blog-category blog-text-success">
+                  <i className="far fa-newspaper"></i> News
+                </h6>
+                <h4 className="blog-card-caption">
+                  <a id="font" href="#">
+                    Car Culture is Nothing to Be Proud of
+                  </a>
+                </h4>
+                <div className="ftr">
+                  <div className="stats">
+                    <i className="far fa-clock"></i> Feb 16, 2023
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-    </div>
-</div>
-</div>
-  </div>
-</div>
-<br></br> <br></br> 
-   </main>
+      </div>
+      <br />
+      <br />
+    </main>
   );
 };
 
