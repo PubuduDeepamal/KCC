@@ -17,7 +17,7 @@ const About3 = () => {
                 <img
                   className="Alimentphoto"
                   src="https://parkivia.ancorathemes.com/wp-content/uploads/2017/12/post-3-copyright-370x220.jpg"
-                  alt="Your Image"
+                  alt="News 1"
                 />
                 <div className="ripple-cont"></div>
               </div>
@@ -45,7 +45,7 @@ const About3 = () => {
                 <img
                   className="Alimentphoto"
                   src="https://parkivia.ancorathemes.com/wp-content/uploads/2017/12/post-4-copyright-370x220.jpg"
-                  alt="Your Image"
+                  alt="News 2"
                 />
                 <div className="ripple-cont"></div>
               </div>
@@ -73,7 +73,7 @@ const About3 = () => {
                 <img
                   className="Alimentphoto"
                   src="https://parkivia.ancorathemes.com/wp-content/uploads/2017/12/post-1-copyright-370x220.jpg"
-                  alt="Your Image"
+                  alt="News 3"
                 />
                 <div className="ripple-cont"></div>
               </div>
