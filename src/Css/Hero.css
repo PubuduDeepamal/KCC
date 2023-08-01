@@ -21,6 +21,7 @@
     border: none;
     margin-Left: 25px;
     margin-Right: 25px;
+    font-family: 'Times New Roman', serif;
 }
 
 #postbutton:hover{
