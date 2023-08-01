@@ -19,6 +19,7 @@ const Home2 = () => {
           </video>
         </main>
       </div>
+      <br></br><br></br>
     </div>
   );
 };

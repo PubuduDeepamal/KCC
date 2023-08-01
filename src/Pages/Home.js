@@ -1,6 +1,7 @@
 import Hero from '../Components/Home/Hero'
 import Homepart1 from '../Components/Home/Homepart1'
 import Home2 from '../Components/Home/Home2'
+import Home3 from '../Components/Home/Home3'
 import ParkingRates from '../Components/Home/ParkingRates'
 import '../Css/Footer.css';
 
@@ -10,6 +11,7 @@ function Home() {
       <Hero/>
       <Homepart1/>
       <Home2/>
+      <Home3/>
       <ParkingRates/>
     </div>
     
