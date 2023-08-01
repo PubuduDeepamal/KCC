@@ -121,4 +121,6 @@ p {
 
 #font{
     font-family: 'Times New Roman', serif;
+    background: white;
+    border: none;
 }

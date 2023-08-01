@@ -26,9 +26,9 @@ const About3 = () => {
                   <i className="far fa-newspaper"></i> News
                 </h6>
                 <h4 className="blog-card-caption">
-                  <a id="font" href="#">
+                  <button id="font">
                     Complete Parking Guidance System Installation
-                  </a>
+                  </button>
                 </h4>
                 <div className="ftr">
                   <div className="stats">
@@ -54,9 +54,9 @@ const About3 = () => {
                   <i className="fas fa-blog"></i> News
                 </h6>
                 <h4 className="blog-card-caption">
-                  <a id="font" href="#">
+                  <button id="font">
                     Parking Spaces That Could Make You Rich
-                  </a>
+                  </button>
                 </h4>
                 <div className="ftr">
                   <div className="stats">
@@ -82,9 +82,7 @@ const About3 = () => {
                   <i className="far fa-newspaper"></i> News
                 </h6>
                 <h4 className="blog-card-caption">
-                  <a id="font" href="#">
-                    Car Culture is Nothing to Be Proud of
-                  </a>
+                  <button id="font">Car Culture is Nothing to Be Proud of</button>
                 </h4>
                 <div className="ftr">
                   <div className="stats">
