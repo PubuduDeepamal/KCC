@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
+// import React, { useState } from 'react';
 import '../../Css/Hero.css';
 import '../../Css/AboutHero.css';
-import { Container, Row, Col, Form, Button } from 'react-bootstrap';
+import { Container, Row, Col} from 'react-bootstrap';
 
   const AboutHero = () => {
   return (
