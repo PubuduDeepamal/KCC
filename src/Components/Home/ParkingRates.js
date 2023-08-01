@@ -35,9 +35,6 @@ const ParkingRates = () => {
                       <li key={index}>{item}</li>
                     ))}
                   </ul>
-                  <Button variant="outlined" color="primary" id="calbutton" fullWidth>
-                    {bundle.title}
-                  </Button>
                 </div>
               </div>
             </div>
