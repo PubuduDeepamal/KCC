@@ -1,5 +1,4 @@
 import React from 'react';
-import Button from '@mui/material/Button';
 import parkingData from '../../JSON/About2.json';
 import '../../Css/About2.css';
 
