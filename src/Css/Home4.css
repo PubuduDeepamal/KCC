@@ -9,3 +9,25 @@
     padding-top: 40px;
     padding-bottom: 40px;
 }
+
+#bookhome4{
+    color: white;
+    font-weight: bolder;
+    font-family: 'Times New Roman', serif;
+    margin-left: 20%;
+
+}
+
+.front {
+    display: block;
+    padding: 12px 42px;
+    border-radius: 12px;
+    font-size: 1.25rem;
+    background: #008ed5;
+    color: white;
+    transform: translateY(-6px);
+}
+
+.front:hover {
+    background: #13c33e;
+  }

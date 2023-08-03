@@ -8,7 +8,7 @@ const Home4 = () => {
         <main>
           <div className="d-flex align-items-center">
             <h1 id="contenthOME4">Save money by pre-booking online</h1>
-            <button className="btn btn-primary ml-3" id="bookhome4">Book Now</button>
+            <button class="front" id="bookhome4"> Pick your parking dates</button>
           </div>
         </main>
       </div>
