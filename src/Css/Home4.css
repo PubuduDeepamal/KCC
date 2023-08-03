@@ -26,6 +26,7 @@
     background: #008ed5;
     color: white;
     transform: translateY(-6px);
+    border: none;
 }
 
 .front:hover {
