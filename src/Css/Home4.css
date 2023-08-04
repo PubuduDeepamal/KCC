@@ -31,4 +31,17 @@
 
 .front:hover {
     background: #13c33e;
-  }
+}
+
+
+
+@media (max-width: 767px) {
+    .d-flex {
+        display: flex !important;
+        flex-direction: column;
+    }
+
+    #bookhome4{
+        margin-left: 0%;
+    }
+}
