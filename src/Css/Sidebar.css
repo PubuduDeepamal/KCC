@@ -23,7 +23,7 @@
     display: block;
     padding: 5px;
     transition: background-color 0.3s;
-    margin-left: 30%;
+    text-align: center;
   }
   
   .sidebar-nav a:hover {
@@ -33,6 +33,7 @@
   }
 
   .sidebar-bottom-text {
+    margin-top: 137%;
     padding: 10px;
     text-align: center;
     background-color: #f8f9fa;
