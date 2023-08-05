@@ -1,6 +1,7 @@
 /* styles.css (or any other CSS file you're using) */
 
 .sidebar {
+    margin-left: -44px;
     height: 738px;
     width: 280px;
     background-color: #f2f3f8;
