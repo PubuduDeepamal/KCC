@@ -2,7 +2,7 @@
 
 .sidebar {
     height: 650px;
-    width: 180px;
+    width: 280px;
     background-color: #f2f3f8;
     color: black;
     padding: 20px;
@@ -23,6 +23,7 @@
     display: block;
     padding: 5px;
     transition: background-color 0.3s;
+    margin-left: 30%;
   }
   
   .sidebar-nav a:hover {
