@@ -12,6 +12,7 @@ const Sidebar = () => {
       />
 
       <ul className="nav flex-column sidebar-nav">
+        <br></br>
         <li className="nav-item">
           <a className="nav-link" href="#">Home</a>
         </li>
@@ -31,7 +32,7 @@ const Sidebar = () => {
 
       {/* Adding text at the bottom of the sidebar */}
       <div className="sidebar-bottom-text">
-        Your additional text here
+      © 2023 Copyright By K. B. M. Pubudu Deepamal
       </div>
     </div>
   );
