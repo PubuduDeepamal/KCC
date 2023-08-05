@@ -21,7 +21,7 @@ const ParkingRates = () => {
           {dataBundles.map((bundle, index) => (
             <div className="col" key={index}>
               <div className="card mb-4 rounded-3 shadow-sm">
-                <div className="card-header py-3">
+                <div className="card-header py-3" id='font12'>
                   <h4 className="my-0 fw-normal" id='font'>{bundle.title}</h4>
                 </div>
                 <div className="card-body">
