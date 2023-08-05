@@ -7,7 +7,6 @@ import Locatin from './pages/Locatin';
 import Contacut from './pages/Contacut';
 import AdminLogin from './pages/Admin/AdminLogin';
 import AdminDashBord from './pages/Admin/AdminDashBord';
-import Footer from './Components/Footer/Footer';
 
 function App() {
   return (
@@ -21,7 +20,6 @@ function App() {
         <Route path='/AdminLogin' element={<AdminLogin />} />
         <Route path='/AdminDashBord' element={<AdminDashBord/>} />
       </Routes>
-      <Footer />
     </>
   );
 }
