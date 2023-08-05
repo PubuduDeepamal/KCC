@@ -1,5 +1,4 @@
 
-
 .sidebar {
     margin-left: -111px;
     height: 738px;
@@ -39,6 +38,17 @@
     text-align: center;
     background-color: #f8f9fa;
   }
-  
 
+  #featured-30{
+    margin-left: -10px;
+  }
+  
+  #featured-31{
+    margin-left: 190px;
+  }
+  
+  .rounded1 {
+    width: 25%;
+    border-radius: var(--bs-border-radius) !important;
+}
   
