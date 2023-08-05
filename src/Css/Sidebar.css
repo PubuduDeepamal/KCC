@@ -28,6 +28,7 @@
   .sidebar-nav a:hover {
     background-color: #555;
     color: white;
+    border-radius: 3px;
   }
 
   
