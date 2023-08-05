@@ -42,6 +42,7 @@ const AdminLogin1 = () => {
     <div id='container1'>
       <div className="container py-3">
         <header>
+        <br></br><br></br>
           <div className="pricing-header p-3 pb-md-4 mx-auto text-center">
             <h1 className="display-4 fw-normal text-body-emphasis" id="ParkingRatestitle"><b>Please sign in</b></h1>
           </div>
@@ -82,6 +83,7 @@ const AdminLogin1 = () => {
             <button className="btn btn-primary w-100 py-2" id="Sign" type="submit">Sign in</button>
           </form>
         </main>
+        <br></br><br></br>  <br></br><br></br>
       </div>
     </div>
   );
