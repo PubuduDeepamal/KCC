@@ -1,7 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../../Css/Sidebar.css';
-import { Container, Row, Col, Form, Button } from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 
 const Sidebar = () => {
   return (
@@ -9,7 +9,7 @@ const Sidebar = () => {
       <Row>
         <Col md={3} className="contact-info">
           <div className="sidebar">
-            <img
+          <img
               src="../img/KCClogo.png"
               alt="Kcc logo"
               className="imgiliment"
@@ -51,28 +51,22 @@ const Sidebar = () => {
         </Col>
 
         <Col md={9} className="contact-form">
-          <div className="container px-4 py-5" id="featured-3">
-            <Row className="row-cols-1 row-cols-lg-3">
-              <div className="feature-box p-4 border rounded">
+          <div className="container px-4 py-5">
+            <Row className="row-cols-1 row-cols-lg-3" id="featured-30">
+              <div className="feature-box p-4 border rounded1 mb-5" >
                 <h3 className="fs-2 text-body-emphasis" id="titleicon">
                   <b>rfffffffffffffff </b>
                 </h3>
                 <p id="titleicon">fffffffffffffff</p>
               </div>
 
-              <div className="feature-box p-4 border rounded">
-                <h3 className="fs-2 text-body-emphasis" id="titleicon">
+              <div className="feature-box p-4 border rounded1 mb-5" id="featured-31">
+                <h3 className="fs-2 text-body-emphasis" id="titleicon31">
                   <b>rfffffffffffffff </b>
                 </h3>
                 <p id="titleicon">fffffffffffffff</p>
               </div>
 
-              <div className="feature-box p-4 border rounded">
-                <h3 className="fs-2 text-body-emphasis" id="titleicon">
-                  <b>rfffffffffffffff </b>
-                </h3>
-                <p id="titleicon">fffffffffffffff</p>
-              </div>
             </Row>
           </div>
         </Col>
