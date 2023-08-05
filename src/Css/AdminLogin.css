@@ -103,3 +103,10 @@
 #font20{
   font-family: 'Times New Roman', serif;
 }
+
+.bottom-text{
+  text-align: center;
+  background-color: rgba(235,236,237,255);
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
