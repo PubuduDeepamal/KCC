@@ -5,7 +5,15 @@ import '../../Css/Sidebar.css';
 const Sidebar = () => {
   return (
     <div className="sidebar">
-      <ul className="nav flex-column sidebar-nav"> {/* Use Bootstrap nav and flex-column classes */}
+
+      <img
+          src="../img/KCClogo.png"
+          alt="Kcc logo"
+          className='imgiliment'
+      />
+
+      <ul className="nav flex-column sidebar-nav">
+      <br></br>
         <li className="nav-item">
           <a className="nav-link" href="#">Home</a>
         </li>
