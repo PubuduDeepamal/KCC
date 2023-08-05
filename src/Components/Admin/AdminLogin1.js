@@ -58,7 +58,7 @@ const AdminLogin1 = () => {
                 value={username}
                 onChange={(e) => setUsername(e.target.value)}
               />
-              <label htmlFor="floatingInput" id="font">Email address</label>
+              <label htmlFor="floatingInput" id="font20">Email address</label>
             </div>
             <br />
             <div className="form-floating">
@@ -70,7 +70,7 @@ const AdminLogin1 = () => {
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
               />
-              <label htmlFor="floatingPassword" id="font">Password</label>
+              <label htmlFor="floatingPassword" id="font20">Password</label>
             </div>
 
             <div className="form-check text-start my-3">
