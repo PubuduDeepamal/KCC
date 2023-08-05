@@ -7,7 +7,7 @@ const Sidebar = () => {
   return (
     <Container className="contact-container">
       <Row>
-        <Col md={6} className="contact-info">
+        <Col md={3} className="contact-info">
           <div className="sidebar">
             <img
               src="../img/KCClogo.png"
@@ -50,7 +50,7 @@ const Sidebar = () => {
           </div>
         </Col>
 
-        <Col md={6} className="contact-form">
+        <Col md={9} className="contact-form">
           <div className="container px-4 py-5" id="featured-3">
             <Row className="row-cols-1 row-cols-lg-3">
               <div className="feature-box p-4 border rounded">
