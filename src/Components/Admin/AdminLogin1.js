@@ -39,15 +39,16 @@ const AdminLogin1 = () => {
   };
 
   return (
+    <div>
     <div id='container1'>
       <div className="container py-3">
         <header>
-        <br></br><br></br>
+        <br></br>
           <div className="pricing-header p-3 pb-md-4 mx-auto text-center">
             <h1 className="display-4 fw-normal text-body-emphasis" id="ParkingRatestitle"><b>Please sign in</b></h1>
           </div>
         </header>
-
+        <br></br>
         <main className="form-signin w-100 m-auto">
           <form onSubmit={handleFormSubmit}>
             <div className="form-floating">
@@ -79,12 +80,19 @@ const AdminLogin1 = () => {
               <label className="form-check-label" htmlFor="flexCheckDefault" id="font">
                 Remember me
               </label>
+              
+              <br></br>
+
             </div>
             <button className="btn btn-primary w-100 py-2" id="Sign" type="submit">Sign in</button>
           </form>
         </main>
         <br></br><br></br>  <br></br><br></br>
       </div>
+    </div>
+    <div className="bottom-text">
+       © 2023 Copyright By K. B. M. Pubudu Deepamal
+    </div>
     </div>
   );
 };
