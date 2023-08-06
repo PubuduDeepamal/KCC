@@ -2,7 +2,6 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../../Css/Sidebar.css';
 import { Container, Row, Col } from 'react-bootstrap';
-import Costcal from '../../Components/Booking/Costcal';
 
 const Sidebar = () => {
   const handleLogout = () => {
@@ -48,7 +47,7 @@ const Sidebar = () => {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="/ParkingChargeCalculator">
                 Parking Charge Calculator
                 </a>
               </li>
@@ -91,9 +90,6 @@ const Sidebar = () => {
 
             </Row>
           </div>
-            <div id="costmargin">
-              <Costcal/>
-            </div>  
         </Col>
       </Row>
     </Container>
