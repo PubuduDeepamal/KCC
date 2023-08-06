@@ -25,7 +25,7 @@ const AdminLogin1 = () => {
 
     if (isValidUser) {
       // Redirect to the home page upon successful login
-      navigate('/');
+      navigate('/AdminDashBord');
       console.log('Login successful!');
       // Replace the console.log with the action you want to take upon successful login.
     } else {
