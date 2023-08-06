@@ -7,6 +7,7 @@ import Locatin from './pages/Locatin';
 import Contacut from './pages/Contacut';
 import AdminLogin from './pages/Admin/AdminLogin';
 import AdminDashBord from './pages/Admin/AdminDashBord';
+import Admincostcal from './pages/Admin/Admincostcal';
 
 function App() {
   return (
@@ -19,6 +20,8 @@ function App() {
         <Route path='/booking' element={<Booking />} />
         <Route path='/AdminLogin' element={<AdminLogin />} />
         <Route path='/AdminDashBord' element={<AdminDashBord/>} />
+        <Route path='/Admincostcal' element={<Admincostcal/>} />
+
       </Routes>
     </>
   );
