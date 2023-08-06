@@ -18,7 +18,7 @@ const Sidebar = () => {
             <ul className="nav flex-column sidebar-nav">
               <br></br>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="/AdminDashBord">
                   Home
                 </a>
               </li>
@@ -38,7 +38,7 @@ const Sidebar = () => {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="/AdminLogin">
                  Logout
                 </a>
               </li>
