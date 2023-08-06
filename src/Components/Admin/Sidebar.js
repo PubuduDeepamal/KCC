@@ -47,7 +47,7 @@ const Sidebar = () => {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/ParkingChargeCalculator">
+                <a className="nav-link" href="/Admincostcal">
                 Parking Charge Calculator
                 </a>
               </li>
