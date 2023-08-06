@@ -2,22 +2,31 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../../Css/Sidebar.css';
 import { Container, Row, Col } from 'react-bootstrap';
-import Costcal from '../../Components/Booking/Costcal'
+import Costcal from '../../Components/Booking/Costcal';
 
 const Sidebar = () => {
+  const handleLogout = () => {
+    const confirmLogout = window.confirm("Are you sure you want to logout?");
+    if (confirmLogout) {
+      // Perform logout logic here
+      // For example, you can redirect the user to the logout page
+      window.location.href = '/adminlogin'; // Change this to your actual logout route
+    }
+  };
+
   return (
     <Container className="contact-container">
       <Row>
         <Col md={3} className="contact-info">
           <div className="sidebar">
-          <img
+            <img
               src="../img/KCClogo.png"
               alt="Kcc logo"
               className="imgiliment"
             />
 
             <ul className="nav flex-column sidebar-nav">
-              <br></br>
+              <br />
               <li className="nav-item">
                 <a className="nav-link" href="/AdminDashBord">
                   Home
@@ -25,22 +34,22 @@ const Sidebar = () => {
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#">
-                Request  Call List
+                  Request Call List
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#">
-                Contact Us
+                  Contact Us
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#">
-                Booking
+                  Booking
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/AdminLogin">
-                 Logout
+                <a className="nav-link" href="#" onClick={handleLogout}>
+                  Logout
                 </a>
               </li>
             </ul>
