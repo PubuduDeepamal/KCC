@@ -2,6 +2,7 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../../Css/Sidebar.css';
 import { Container, Row, Col } from 'react-bootstrap';
+import Costcal from '../../Components/Booking/Costcal'
 
 const Sidebar = () => {
   return (
@@ -76,6 +77,9 @@ const Sidebar = () => {
 
             </Row>
           </div>
+            <div id="costmargin">
+              <Costcal/>
+            </div>  
         </Col>
       </Row>
     </Container>
