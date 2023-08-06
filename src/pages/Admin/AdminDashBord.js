@@ -1,6 +1,6 @@
 import Sidebar from '../../Components/Admin/Sidebar'
 import Dashboard from '../../Components/Admin/Dashboard'
-import MainContent from '../../Components/Admin/MainContent'
+// import MainContent from '../../Components/Admin/MainContent'
 
 
 function AdminDashBord() {
@@ -8,7 +8,7 @@ function AdminDashBord() {
     <div>
       <Sidebar/>
       <Dashboard/>
-      <MainContent/>
+      {/* <MainContent/> */}
     </div>
     
   );
