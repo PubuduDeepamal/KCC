@@ -48,6 +48,11 @@ const Sidebar = () => {
                 </a>
               </li>
               <li className="nav-item">
+                <a className="nav-link" href="#">
+                Parking Charge Calculator
+                </a>
+              </li>
+              <li className="nav-item">
                 <a className="nav-link" href="#" onClick={handleLogout}>
                   Logout
                 </a>
