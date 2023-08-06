@@ -24,22 +24,22 @@ const Sidebar = () => {
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#">
-                  About
+                Request  Call List
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#">
-                  Services
+                Contact Us
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#">
-                  Portfolio
+                Booking
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#">
-                  Contact
+                 Logout
                 </a>
               </li>
             </ul>
