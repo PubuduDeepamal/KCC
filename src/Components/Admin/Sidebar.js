@@ -52,15 +52,22 @@ const Sidebar = () => {
 
         <Col md={9} className="contact-form">
           <div className="container px-4 py-5">
-            <Row className="row-cols-1 row-cols-lg-3" id="featured-30">
-              <div className="feature-box p-4 border rounded1 mb-5" >
+            <Row className="row-cols-1 row-cols-lg-3">
+              <div className="feature-box p-4 border1 rounded1 mb-5" id="featured-30" >
                 <h3 className="fs-2 text-body-emphasis" id="titleicon">
                   <b>rfffffffffffffff </b>
                 </h3>
                 <p id="titleicon">fffffffffffffff</p>
               </div>
 
-              <div className="feature-box p-4 border rounded1 mb-5" id="featured-31">
+              <div className="feature-box p-4 border2 rounded1 mb-5" id="featured-31">
+                <h3 className="fs-2 text-body-emphasis" id="titleicon31">
+                  <b>rfffffffffffffff </b>
+                </h3>
+                <p id="titleicon">fffffffffffffff</p>
+              </div>
+
+              <div className="feature-box p-4 border3 rounded1 mb-5" id="featured-32">
                 <h3 className="fs-2 text-body-emphasis" id="titleicon31">
                   <b>rfffffffffffffff </b>
                 </h3>
