@@ -41,7 +41,7 @@ const Costcal = () => {
       Swal({
         icon: 'success',
         title: 'Total Parking Charge',
-        text: `$${total}`,
+        text: `Rs ${total}.00`,
         timer: 3000,
         showCancelButton: false,
       });
