@@ -21,6 +21,11 @@ const Costcal = () => {
     setDepartureTime(event.target.value);
   };
 
+  const validateTimeFormat = (time) => {
+    const pattern = /^(?:2[0-3]|[01][0-9]):[0-5][0-9]$/;
+    return pattern.test(time);
+  };
+
   const handleHoursChange = (event) => {
     const value = event.target.value;
     if (value === '' || (Number(value) >= 0 && Number.isInteger(parseFloat(value)))) {
@@ -29,6 +34,17 @@ const Costcal = () => {
   };
 
   const calculateCharge = () => {
+    if (!validateTimeFormat(entryTime) || !validateTimeFormat(departureTime)) {
+      Swal({
+        title: 'Error!',
+        text: 'Please enter valid time format (HH:mm).',
+        icon: 'error',
+        timer: 3000,
+        button: false,
+      });
+      return;
+    }
+
     const entryTimestamp = new Date(`2000-01-01T${entryTime}:00`);
     const departureTimestamp = new Date(`2000-01-01T${departureTime}:00`);
 
