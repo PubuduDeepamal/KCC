@@ -7,7 +7,6 @@ const Costcal = () => {
   const [vehicleType, setVehicleType] = useState('car');
   const [entryTime, setEntryTime] = useState('');
   const [departureTime, setDepartureTime] = useState('');
-  const [hours, setHours] = useState('');
 
   const handleVehicleTypeChange = (event) => {
     setVehicleType(event.target.value);
@@ -25,13 +24,6 @@ const Costcal = () => {
     const pattern = /^(?:2[0-3]|[01][0-9]):[0-5][0-9]$/;
     return pattern.test(time);
   };
-
-  // const handleHoursChange = (event) => {
-  //   const value = event.target.value;
-  //   if (value === '' || (Number(value) >= 0 && Number.isInteger(parseFloat(value)))) {
-  //     setHours(value);
-  //   }
-  // };
 
   const calculateCharge = () => {
     if (!validateTimeFormat(entryTime) || !validateTimeFormat(departureTime)) {
@@ -86,7 +78,6 @@ const Costcal = () => {
 
     setEntryTime('');
     setDepartureTime('');
-    setHours('');
   };
 
   return (
