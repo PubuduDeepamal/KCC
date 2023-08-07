@@ -32,17 +32,17 @@ const Sidebar = () => {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="javascript:void(0);">
+                <a className="nav-link" href="/AdminDashBord">
                   Request Call List
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="javascript:void(0);">
+                <a className="nav-link" href="/AdminDashBord">
                   Contact Us
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="javascript:void(0);">
+                <a className="nav-link" href="/AdminDashBord">
                   Booking
                 </a>
               </li>
