@@ -2,7 +2,7 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../../Css/Sidebar.css';
 import { Container, Row, Col } from 'react-bootstrap';
-import Costcal from '../../Components/Booking/Costcal'
+import Costcal from '../../Components/Booking/Costcal';
 
 const Dashboard = () => {
   const handleLogout = () => {
@@ -33,29 +33,29 @@ const Dashboard = () => {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="/request-call-list">
                   Request Call List
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="/contact-us">
                   Contact Us
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="/booking">
                   Booking
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="/Admincostcal">
-                Parking Charge Calculator
+                  Parking Charge Calculator
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#" onClick={handleLogout}>
+                <button className="nav-link" onClick={handleLogout}>
                   Logout
-                </a>
+                </button>
               </li>
             </ul>
 
@@ -67,7 +67,7 @@ const Dashboard = () => {
 
         <Col md={9} className="contact-form">
           <br></br><br></br>
-                <Costcal/>
+          <Costcal />
         </Col>
       </Row>
     </Container>
