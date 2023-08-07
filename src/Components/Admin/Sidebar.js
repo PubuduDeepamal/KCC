@@ -52,7 +52,7 @@ const Sidebar = () => {
                 </a>
               </li>
               <li className="nav-item">
-                <button className="nav-link" onClick={handleLogout}>
+                <button className="nav-link" id="logoutbutton" onClick={handleLogout}>
                   Logout
                 </button>
               </li>
