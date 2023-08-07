@@ -26,12 +26,12 @@ const Costcal = () => {
     return pattern.test(time);
   };
 
-  const handleHoursChange = (event) => {
-    const value = event.target.value;
-    if (value === '' || (Number(value) >= 0 && Number.isInteger(parseFloat(value)))) {
-      setHours(value);
-    }
-  };
+  // const handleHoursChange = (event) => {
+  //   const value = event.target.value;
+  //   if (value === '' || (Number(value) >= 0 && Number.isInteger(parseFloat(value)))) {
+  //     setHours(value);
+  //   }
+  // };
 
   const calculateCharge = () => {
     if (!validateTimeFormat(entryTime) || !validateTimeFormat(departureTime)) {
