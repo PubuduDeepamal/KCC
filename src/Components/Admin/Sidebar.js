@@ -32,29 +32,29 @@ const Sidebar = () => {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="javascript:void(0);">
                   Request Call List
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="javascript:void(0);">
                   Contact Us
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="javascript:void(0);">
                   Booking
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="/Admincostcal">
-                Parking Charge Calculator
+                  Parking Charge Calculator
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#" onClick={handleLogout}>
+                <button className="nav-link" onClick={handleLogout}>
                   Logout
-                </a>
+                </button>
               </li>
             </ul>
 
@@ -67,11 +67,11 @@ const Sidebar = () => {
         <Col md={9} className="contact-form">
           <div className="container px-4 py-5">
             <Row className="row-cols-1 row-cols-lg-3">
-              <div className="feature-box p-4 border1 rounded1 mb-5" id="featured-30" >
+              <div className="feature-box p-4 border1 rounded1 mb-5" id="featured-30">
                 <h3 className="fs-2 text-body-emphasis" id="titleicon">
-                  <b> 1160</b>
+                  <b>1160</b>
                 </h3>
-                <p id="titleicon"> Total Parking Slots</p>
+                <p id="titleicon">Total Parking Slots</p>
               </div>
 
               <div className="feature-box p-4 border2 rounded1 mb-5" id="featured-31">
@@ -85,9 +85,8 @@ const Sidebar = () => {
                 <h3 className="fs-2 text-body-emphasis" id="titleicon31">
                   <b>1100 </b>
                 </h3>
-                <p id="titleicon">Avalible  Parking Slots</p>
+                <p id="titleicon">Available Parking Slots</p>
               </div>
-
             </Row>
           </div>
         </Col>
