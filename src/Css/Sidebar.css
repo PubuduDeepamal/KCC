@@ -88,4 +88,8 @@
   color: black;
   font-family: 'Times New Roman', serif;
 }
+
+#logoutbutton:hover{
+  background-color: #555555;
+}
   
