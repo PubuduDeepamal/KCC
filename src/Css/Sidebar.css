@@ -84,12 +84,20 @@
 }
 
 #logoutbutton{
-  margin-left: 32%;
   color: black;
   font-family: 'Times New Roman', serif;
+  text-decoration: none;
+  display: block;
+  padding: 5px;
+  transition: background-color 0.3s;
+  text-align: center;
+  width: 100%;
+  
 }
 
 #logoutbutton:hover{
-  background-color: #555555;
+  background-color: #555;
+  color: white;
+  border-radius: 3px;
 }
   
