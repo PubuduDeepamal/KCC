@@ -1,15 +1,26 @@
 import React from 'react';
 import { useRef } from 'react';
-// import { firbase} from "../firebase";
-// import {addDoc,collection} from "@firebase/firestore";
+import { firestore} from "../../firebase";
+import {addDoc,collection} from "@firebase/firestore";
 
-  const Bookingsing = () => {
+const Bookingsing = () => {
 
   const messageRef = useRef();
+  const ref = collection(firestore,"messages")
 
   const handeleSave = async (e) =>{
     e.preventDefault();
     console.log(messageRef.current.value);
+
+    let data = {
+      message: messageRef.current.value,
+    };
+
+    try{
+      addDoc(ref,)
+    } catch(e){
+      console.log(e);
+    }
 
   };
 
