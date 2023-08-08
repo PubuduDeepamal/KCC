@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 import { Container, Row, Col, Form, Button } from 'react-bootstrap';
 import Swal from 'sweetalert';
-import { initializeApp } from 'firebase/app';
-import { getDatabase, ref, push, serverTimestamp } from 'firebase/database';
 import '../../Css/Contactus.css';
 
 // Import the JSON data
@@ -15,15 +13,7 @@ const Contactus = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Add your Firebase database submission logic here
-    // For example, you can use the Firebase database functions to store the form data
-    // Initialize Firebase app and save the data to the database
-    // const firebaseConfig = { yourFirebaseConfig };
-    // const app = initializeApp(firebaseConfig);
-    // const database = getDatabase(app);
-    // const messagesRef = ref(database, 'messages');
-    // push(messagesRef, { name, email, message, timestamp: serverTimestamp() });
-
+    
     // Show a confirmation alert using SweetAlert
     Swal({
       title: 'Success',
@@ -38,7 +28,6 @@ const Contactus = () => {
   };
 
   return (
-    
     <Container className="contact-container">
       <Row id="marginmanage">
         <Col md={6} className="contact-info" id="backgroundcolour1">
