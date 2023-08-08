@@ -3,7 +3,6 @@ import { firestore } from "../../firebase";
 import { addDoc, collection } from "@firebase/firestore";
 
 export default function Home() {
-
   const messageRef = useRef();
   const ref = collection(firestore, "messages");
 
