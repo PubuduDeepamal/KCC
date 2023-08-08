@@ -1,5 +1,6 @@
 import BookingHero from '../Components/Booking/BookingHero'
 import Header1 from '../Components/Heder/Header1'
+import Bookingsing from '../Components/Booking/Bookingsing'
 import Footer from '../Components/Footer/Footer';
 
 function Booking() {
@@ -7,6 +8,7 @@ function Booking() {
     <div>
       <Header1/>
       <BookingHero/>
+      <Bookingsing/>
       <Footer />
     </div>
     
