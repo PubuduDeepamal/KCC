@@ -1,30 +1,26 @@
-// import React, { useState } from 'react';
-import '../../Css/Hero.css';
-import { Container, Row, Col} from 'react-bootstrap';
+import React from 'react';
+import { useRef } from 'react';
+// import { firbase} from "../firebase";
+// import {addDoc,collection} from "@firebase/firestore";
 
   const Bookingsing = () => {
+
+  const messageRef = useRef();
+
+  const handeleSave = async (e) =>{
+    e.preventDefault();
+    console.log(messageRef.current.value);
+
+  };
+
   return (
-    <header style={{ paddingLeft: 0 }}>
-      <div
-        className='p-5 text-center bg-image'
-        style={{
-          backgroundImage:
-            "url('https://images.pexels.com/photos/2859169/pexels-photo-2859169.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')",
-        }}
-      >
-        <div className='mask' id='mask'>
-          <Container>
-            <Row className='justify-content-center align-items-center' id='boxtop'>
-              <Col md={6} className='text-white'>
-                <h1 className='mb-3 custom-heading' id='Heading'>
-                Booking Parking Slot
-                </h1>
-              </Col>
-            </Row>
-          </Container>
-        </div>
-      </div>
-    </header>
+    <div>
+      <form onSubmit={handeleSave}>
+        <label>Enter Message</label>
+        <input type="text" ref={messageRef} />
+        <button type='submit'>Save</button>
+      </form>
+    </div>
   );
 }
 
