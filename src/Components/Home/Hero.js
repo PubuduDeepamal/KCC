@@ -2,22 +2,6 @@ import React, { useState } from 'react';
 import '../../Css/Hero.css';
 import { Container, Row, Col, Form, Button } from 'react-bootstrap';
 import Swal from 'sweetalert';
-import { initializeApp } from 'firebase/app';
-import { getDatabase, ref, push, serverTimestamp } from 'firebase/database';
-
-// Initialize Firebase with your config
-const firebaseConfig = {
-  apiKey: "AIzaSyCxELxwNCXd3YKnHMzzD3c8I4Z-l-mwFso",
-  authDomain: "kcccarpark.firebaseapp.com",
-  projectId: "kcccarpark",
-  storageBucket: "kcccarpark.appspot.com",
-  messagingSenderId: "228659367130",
-  appId: "1:228659367130:web:75f2c130ebe89be4b1e9e3",
-  measurementId: "G-KV1VBESRDG"
-};
-
-const app = initializeApp(firebaseConfig);
-const database = getDatabase(app);
 
 export default function HeroImage() {
   const [inputValue, setInputValue] = useState('');
@@ -42,20 +26,11 @@ export default function HeroImage() {
         title: 'Error!',
         text: 'Message box is empty. Please enter both messages.',
         icon: 'error',
-        timer: 3000, 
+        timer: 3000,
         button: false,
       });
-      return; 
+      return;
     }
-
-    // Save the messages to Firebase
-    const messagesRef = ref(database, 'messages');
-    const newMessageRef = push(messagesRef);
-    newMessageRef.set({
-      message1: inputValue,
-      message2: inputValue2,
-      timestamp: serverTimestamp(),
-    });
 
     // Show the success message using SweetAlert
     setShowSuccessMessage(true);
@@ -79,7 +54,6 @@ export default function HeroImage() {
         style={{
           backgroundImage:
             "url('https://images.pexels.com/photos/2859169/pexels-photo-2859169.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')",
-          
         }}
       >
         <div className='mask' id='mask'>
@@ -109,7 +83,7 @@ export default function HeroImage() {
                     </Col>
                     <Col xs='auto'>
                       <Button variant='outline-light' id='postbutton' type='submit' role='button'>
-                       Request a Call
+                        Request a Call
                       </Button>
                     </Col>
                   </Form.Group>
