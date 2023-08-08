@@ -1,9 +1,8 @@
-import React from 'react';
-import { useRef } from 'react';
+import React, { useRef } from 'react';
 import { firestore } from "../../firebase";
 import { addDoc, collection } from "@firebase/firestore";
 
-const Bookingsing = () => {
+export default function Home() {
 
   const messageRef = useRef();
   const ref = collection(firestore, "messages");
@@ -34,5 +33,3 @@ const Bookingsing = () => {
     </div>
   );
 }
-
-export default Bookingsing;
