@@ -1,14 +1,14 @@
 import React from 'react';
 import { useRef } from 'react';
-import { firestore} from "../../firebase";
-import {addDoc,collection} from "@firebase/firestore";
+import { firestore } from "../../firebase";
+import { addDoc, collection } from "@firebase/firestore";
 
-export default function Bookingsing() {
+const Bookingsing = () => {
 
   const messageRef = useRef();
-  const ref = collection(firestore,"messages");
+  const ref = collection(firestore, "messages");
 
-  const handeleSave = async (e) =>{
+  const handeleSave = async (e) => {
     e.preventDefault();
     console.log(messageRef.current.value);
 
@@ -16,9 +16,9 @@ export default function Bookingsing() {
       message: messageRef.current.value,
     };
 
-    try{
-      addDoc(ref, data)
-    } catch(e){
+    try {
+      addDoc(ref, data);
+    } catch (e) {
       console.log(e);
     }
 
