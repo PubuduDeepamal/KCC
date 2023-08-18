@@ -32,8 +32,9 @@ const Header = () => {
             <NavDropdown.Item href="/Contacut" id="hederhover">Contact</NavDropdown.Item>
           </ul>
           
-          <a href="your_url_here" className="btn btn-orange">
+          <a href="/Contacut">
             <button
+              className="btn btn-orange"
               id="postbutton"
               type="submit"
             >
