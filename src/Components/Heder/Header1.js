@@ -31,14 +31,16 @@ const Header = () => {
             <NavDropdown.Item href="/Locatin" id="hederhover">Locatin</NavDropdown.Item>
             <NavDropdown.Item href="/Contacut" id="hederhover">Contact</NavDropdown.Item>
           </ul>
-          <button
-            className="btn btn-orange"
-            id="postbutton"
-            type="submit"
-            
-          >
-            Booking Parking Slot
-          </button>
+          
+          <a href="your_url_here" className="btn btn-orange">
+            <button
+              id="postbutton"
+              type="submit"
+            >
+              Booking Parking Slot
+            </button>
+          </a>
+
 
           <ul className="navbar2" id="navbar2" style={{ display: 'inline-flex' }}>
           <MDBIcon color='secondary' id="தமிழ்" className='me-2'></MDBIcon>
